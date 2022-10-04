@@ -1,6 +1,7 @@
 import os
 import re
 import csv
+import pandas as pd
 
 def search_file(file_path):
     re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
@@ -59,18 +60,23 @@ if __name__=='__main__':
                 for file in file_tree.keys():
                     for line in file_tree[file]:
                         writer.writerow([file,line[0],line[1]])
+            csv = pd.read_csv('file_tree.csv', encoding='GB18030')
+            csv.to_excel('file_tree.xlsx', sheet_name='data')
         elif enter=='w':
-            with open(r'file_tree.csv', 'r', newline='',encoding='GB18030') as csvfile:
+            data_xls = pd.read_excel('file_tree.xlsx', index_col=0)
+            data_xls.to_csv('file_tree.csv', encoding='GB18030')
+            with open('file_tree.csv', 'r', newline='',encoding='GB18030') as csvfile:
                 reader = csv.reader(csvfile)
                 new_file_tree={}
                 #i的结构(文件路径，文本内容,正则表达式)
                 for i in reader:
-                    if i[0]=='文件路径':
+                    if i[1]=='文件路径':
                         continue
-                    if i[0] in new_file_tree:
-                        new_file_tree[i[0]].append([i[1],i[2]])
+                    if i[1] in new_file_tree:
+                        new_file_tree[i[1]].append([i[2],i[3]])
                     else:
-                        new_file_tree[i[0]]=[[i[1],i[2]]]
+                        new_file_tree[i[1]]=[[i[2],i[3]]]
+
             for file_path in new_file_tree.keys():
                 write_file(file_path,new_file_tree)
 
