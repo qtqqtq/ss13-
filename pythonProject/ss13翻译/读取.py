@@ -1,7 +1,6 @@
 import os
 import re
 import csv
-import pandas as pd
 
 folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects\items'
 
