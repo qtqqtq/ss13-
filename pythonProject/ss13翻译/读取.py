@@ -2,10 +2,10 @@ import os
 import re
 import csv
 
-folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects\items'
+folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects'
+re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
 
 def search_file(file_path):
-    re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
     f=open(file_path,'r',encoding='UTF-8')
     stat=os.stat(file_path)
     result=[]
