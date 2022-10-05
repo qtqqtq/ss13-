@@ -3,6 +3,8 @@ import re
 import csv
 import pandas as pd
 
+folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects\items'
+
 def search_file(file_path):
     re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
     f=open(file_path,'r',encoding='UTF-8')
@@ -53,29 +55,33 @@ if __name__=='__main__':
         enter=str(input('输入r读出文件，输入w写入文件，输入q退出:'))
         print('操作中')
         if enter=='r':
-            file_tree = search_folder(r'D:\skyrat\Skyrat-tg-master\code\game\objects\items')
+            file_tree = search_folder(folder_path)
             with open('file_tree.csv', 'w', newline='',encoding='GB18030') as csvfile:
                 writer = csv.writer(csvfile)
-                writer.writerow(['文件路径','文本内容','正则表达式'])
+                writer.writerow(['文件路径','正则表达式'])
                 for file in file_tree.keys():
                     for line in file_tree[file]:
-                        writer.writerow([file,line[0],line[1]])
-            csv = pd.read_csv('file_tree.csv', encoding='GB18030')
-            csv.to_excel('file_tree.xlsx', sheet_name='data')
+                        writer.writerow([file,line[1]])
+            with open('text.csv', 'w', newline='',encoding='GB18030') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow(['文本内容'])
+                for file in file_tree.keys():
+                    for line in file_tree[file]:
+                        writer.writerow([line[0]])
         elif enter=='w':
-            data_xls = pd.read_excel('file_tree.xlsx', index_col=0)
-            data_xls.to_csv('file_tree.csv', encoding='GB18030')
             with open('file_tree.csv', 'r', newline='',encoding='GB18030') as csvfile:
-                reader = csv.reader(csvfile)
-                new_file_tree={}
-                #i的结构(文件路径，文本内容,正则表达式)
-                for i in reader:
-                    if i[1]=='文件路径':
-                        continue
-                    if i[1] in new_file_tree:
-                        new_file_tree[i[1]].append([i[2],i[3]])
-                    else:
-                        new_file_tree[i[1]]=[[i[2],i[3]]]
+                tree_reader = csv.reader(csvfile)
+                with open('text.csv', 'r', newline='', encoding='GB18030') as text:
+                    text_reader = csv.reader(text)
+                    new_file_tree={}
+                    #i的结构((文件路径，正则表达式)，文本内容)
+                    for i in zip(tree_reader,text_reader):
+                        if i[0][0]=='文件路径':
+                            continue
+                        if i[0][0] in new_file_tree:
+                            new_file_tree[i[0][0]].append([i[1],i[0][1]])
+                        else:
+                            new_file_tree[i[0][0]]=[[i[1],i[0][1]]]
 
             for file_path in new_file_tree.keys():
                 write_file(file_path,new_file_tree)
