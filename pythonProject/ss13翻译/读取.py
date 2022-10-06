@@ -2,7 +2,7 @@ import os
 import re
 import csv
 
-folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects'
+folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects\items'
 re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
 
 def search_file(file_path):
@@ -63,14 +63,15 @@ if __name__=='__main__':
                         writer.writerow([file,line[1]])
             with open('text.csv', 'w', newline='',encoding='GB18030') as csvfile:
                 writer = csv.writer(csvfile)
-                writer.writerow(['文本内容'])
+                writer.writerow(['索引','文本内容'])
+                index=iter(range(100000000))
                 for file in file_tree.keys():
                     for line in file_tree[file]:
-                        writer.writerow([line[0]])
+                        writer.writerow([next(index),line[0]])
         elif enter=='w':
             with open('file_tree.csv', 'r', newline='',encoding='GB18030') as csvfile:
                 tree_reader = csv.reader(csvfile)
-                with open('text.csv', 'r', newline='', encoding='GB18030') as text:
+                with open('text.csv', 'r', newline='', encoding='GB18030', errors='ignore') as text:
                     text_reader = csv.reader(text)
                     new_file_tree={}
                     #i的结构((文件路径，正则表达式)，文本内容)
@@ -78,9 +79,9 @@ if __name__=='__main__':
                         if i[0][0]=='文件路径':
                             continue
                         if i[0][0] in new_file_tree:
-                            new_file_tree[i[0][0]].append([i[1],i[0][1]])
+                            new_file_tree[i[0][0]].append([i[1][1],i[0][1]])
                         else:
-                            new_file_tree[i[0][0]]=[[i[1],i[0][1]]]
+                            new_file_tree[i[0][0]]=[[i[1][1],i[0][1]]]
 
             for file_path in new_file_tree.keys():
                 write_file(file_path,new_file_tree)
