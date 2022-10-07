@@ -2,7 +2,7 @@ import os
 import re
 import csv
 
-folder_path=r'D:\skyrat\Skyrat-tg-master\code\game\objects\items'
+folder_path='D:\skyrat\Skyrat-tg-master\code\game\objects\items'
 re_list=['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")']
 
 def search_file(file_path):
@@ -39,7 +39,7 @@ def write_file(file_path,file_tree):
             try:
                 text,r_e=next(f_string)
             except StopIteration:
-                break
+                pass
         change_f[line]=''.join(old_file_line)
     f.close()
     fw = open(file_path, 'w', encoding='UTF-8')
@@ -79,6 +79,8 @@ if __name__=='__main__':
                         if i[0][0]=='文件路径':
                             continue
                         if len(i[1])==2:
+                            new_text=i[1][1]
+                        elif i[1][2]=='':
                             new_text=i[1][1]
                         else:new_text=i[1][2]
                         if i[0][0] in new_file_tree:
