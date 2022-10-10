@@ -39,7 +39,7 @@ def write_file(file_path,file_tree):
         old_file_line=list(change_f[line])
         if re.match('.*',change_f[line]).group()==id:
             switch=True
-        elif line=='\n':
+        elif change_f[line]=='\n':
             switch=False
         if switch:
             match=re.search(r_e,change_f[line])
