@@ -50,7 +50,11 @@ def search_folder(folder_path,re_list):
     return result
 
 def write_file(file_path,file_tree):
-    f = open(file_path, 'r', encoding='UTF-8')
+    try:
+        f = open(file_path, 'r', encoding='UTF-8')
+    except FileNotFoundError:
+        print(file_path+'处文件不存在（可能是在更新中被删除)')
+        return
     #change_f是需要改变并写入文件的文本
     change_f=f.readlines()
     f_string=iter(file_tree[file_path])
