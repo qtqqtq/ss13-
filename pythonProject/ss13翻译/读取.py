@@ -58,20 +58,21 @@ def write_file(file_path,file_tree):
     #change_f是需要改变并写入文件的文本
     change_f=f.readlines()
     f_string=iter(file_tree[file_path])
-    text,r_e,id=next(f_string)
+    text,r_e,_=next(f_string)
     switch=False
     for line in range(len(change_f)):
         old_file_line=list(change_f[line])
-        if re.match('.*',change_f[line]).group()==id:
-            switch=True
-        elif change_f[line]=='\n':
+        if change_f[line][0]=='/':
             switch=False
+        for _,_,id in file_tree[file_path]:
+            if re.match('.*',change_f[line]).group()==id:
+                switch=True
         if switch:
             match=re.search(r_e,change_f[line])
             if match!=None:
                 old_file_line=old_file_line[:match.span()[0]]+list(text)+old_file_line[match.span()[1]:]
                 try:
-                    text,r_e,id=next(f_string)
+                    text,r_e,_=next(f_string)
                 except StopIteration:
                     pass
             change_f[line]=''.join(old_file_line)
