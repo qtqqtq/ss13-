@@ -62,10 +62,10 @@ def write_file(file_path,file_tree):
     switch=False
     for line in range(len(change_f)):
         old_file_line=list(change_f[line])
+        if change_f[line][0]=='/':
+            switch=False
         if re.match('.*',change_f[line]).group()==id:
             switch=True
-        elif change_f[line]=='\n':
-            switch=False
         if switch:
             match=re.search(r_e,change_f[line])
             if match!=None:
