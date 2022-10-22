@@ -2,7 +2,6 @@ import os
 import  re as re
 import csv
 
-count=0
 file_info=[
     {
         'folder_path':'D:\skyrat\Skyrat-tg-master\code\game\objects\items',
@@ -24,6 +23,13 @@ file_info=[
         'file_name': 'effects_text.csv',
         'filetree_name': 'effects_file_tree.csv'
     }
+    ,
+    {
+        'folder_path':r'D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces',
+        're_list': ['(?<=title=").*(?=" )','(?<=label=").*(?=" )','(?<=content=").*(?=" )'],
+        'file_name':'interface_text.csv',
+        'filetree_name':'interface_file_tree.csv'
+    }
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
@@ -31,13 +37,15 @@ def search_file(file_path,re_list):
     f=open(file_path,'r',encoding='UTF-8')
     stat=os.stat(file_path)
     result=[]
+    id=''
     for string in f.readlines():
         if list(string)[0]=='/':
             id=re.match('.*',string).group()
         for r_e in re_list:
-            match=re.search(r_e,string)
+            matchre=re.compile(r_e)
+            match=matchre.search(string)
             if match!=None and match not in result:
-                result.append([match.group(),r_e,id])
+                result.append([match.group(0),r_e,id])
                 break
     f.close()
     return result
@@ -60,15 +68,13 @@ def write_file(file_path,file_tree):
     #change_f是需要改变并写入文件的文本
     change_f=f.readlines()
     f_info=file_tree[file_path]
+    #增加一次迭代，防止迭代溢出
+    f_info.append([None,None,None])
     id=None
     text_list=[]
-    for i in range(len(f_info)+1):
-        #处理不好了，只能加一次迭代，然后做一些处理防止迭代溢出
-        i_check=i
-        if i>=len(f_info):
-            i-=1
+    for i in range(len(f_info)):
         #匹配了一个新物品的id，开始写入上一物品
-        if (id!=f_info[i][2] and id!=None) or i_check==len(f_info):
+        if (id!=f_info[i][2] and id!=None):
             text_iter=iter(text_list)
             text,r_e=next(text_iter)
             switch=False
@@ -78,6 +84,8 @@ def write_file(file_path,file_tree):
                     switch=True
                 elif change_f[line][0]=='/':
                     switch=False
+                if id == '':
+                    switch=True
                 #找到了写入的位置，开始按顺序写入正则表达式对应内容
                 if switch:
                     match=re.search(r_e,change_f[line])
@@ -148,6 +156,7 @@ if __name__=='__main__':
             for info in file_info:
                 read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'])
         elif enter=='w':
+            count=0
             for info in file_info:
                 write_tree(info['file_name'],info['filetree_name'])
             print(count)
