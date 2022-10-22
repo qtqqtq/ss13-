@@ -26,7 +26,7 @@ file_info=[
     ,
     {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces',
-        're_list': ['(?<=title=").*(?=" )','(?<=label=").*(?=" )','(?<=content=").*(?=" )'],
+        're_list': ['(?<=title=").*(?=")','(?<=label=").*(?=")','(?<=content=").*(?=")'],
         'file_name':'interface_text.csv',
         'filetree_name':'interface_file_tree.csv'
     }
