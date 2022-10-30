@@ -8,6 +8,7 @@ file_info=[
         're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name':'text.csv',
         'filetree_name':'file_tree.csv',
+        'encoding':'UTF-8',
         'id':'True'
     }
     ,
@@ -16,6 +17,7 @@ file_info=[
         're_list': ['(?<=name = ".improper ).*(?=")', '(?<=name = ".proper ).*(?=")', '(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name': 'structures_text.csv',
         'filetree_name': 'structures_file_tree.csv',
+        'encoding':'UTF-8',
         'id':'True'
     }
     ,
@@ -24,6 +26,7 @@ file_info=[
         're_list': ['(?<=name = ".improper ).*(?=")', '(?<=name = ".proper ).*(?=")', '(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name': 'effects_text.csv',
         'filetree_name': 'effects_file_tree.csv',
+        'encoding':'UTF-8',
         'id':'True'
     }
     ,
@@ -32,47 +35,66 @@ file_info=[
         're_list': ['(?<=title=").*(?=")','(?<=content=").*(?=")'],
         'file_name':'interface_text.csv',
         'filetree_name':'interface_file_tree.csv',
+        'encoding':'UTF-8',
         'id':'False'
+    }
+    ,
+    {
+        'folder_path':'D:\skyrat\Skyrat-tg-master\code\modules',
+        're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
+        'file_name':'modules_text.csv',
+        'filetree_name':'modules_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'True'
     }
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
-def search_file(file_path,re_list,id_tf):
-    f=open(file_path,'r',encoding='UTF-8')
+def search_file(file_path,re_list,id_tf,encoding):
+    global count
+    try:
+        f=open(file_path,'r',encoding=encoding)
+    except UnicodeDecodeError:
+        f=open(file_path, 'rb', encoding=encoding)
     result=[]
     tmp_string=''
     #用来检查一个id是否已经存在,仅在id不存在时生效
     id_check_list=[]
-    for string in f.readlines():
-        if id_tf=='False':
-            id=re.match('.*',tmp_string).group()
-        if list(string)[0]=='/' and id_tf=='True':
-            id=re.match('.*',string).group()
-        for r_e in re_list:
-            matchre=re.compile(r_e)
-            match=matchre.search(string)
-            if match!=None and match not in result:
-                result.append([match.group(0),r_e,id])
-                break
-        #传递到下一次迭代
-        if string not in id_check_list:
-            tmp_string=string
-            id_check_list.append(string)
-    f.close()
-    return result
+    try:
+        for string in f.readlines():
+            if id_tf=='False':
+                id=re.match('.*',tmp_string).group()
+            if list(string)[0]=='/' and id_tf=='True':
+                id=re.match('.*',string).group()
+            for r_e in re_list:
+                matchre=re.compile(r_e)
+                match=matchre.search(string)
+                if match!=None and match not in result:
+                    result.append([match.group(0),r_e,id])
+                    count+=1
+                    break
+            #传递到下一次迭代
+            if string not in id_check_list:
+                tmp_string=string
+                id_check_list.append(string)
+        f.close()
+        return result
+    except UnicodeDecodeError:
+        print('读取'+file_path+'时出现编码错误')
 
-def search_folder(folder_path,re_list,id_tf):
+def search_folder(folder_path,re_list,id_tf,encoding):
     result={}
     for root,dirs,files in os.walk(folder_path):
         for file_name in files:
-            result.update({root+'\\'+file_name:search_file(root+'\\'+file_name,re_list,id_tf)})
+            if [list(file_name)[-3],list(file_name)[-2],list(file_name)[-1]]!=list('png'):
+                result.update({root+'\\'+file_name:search_file(root+'\\'+file_name,re_list,id_tf,encoding)})
     return result
 
 #f_info[匹配内容，正则表达式，匹配物品]
-def write_file(file_path,file_tree,id_tf):
+def write_file(file_path,file_tree,id_tf,encoding):
     global count
     try:
-        f = open(file_path, 'r', encoding='UTF-8')
+        f = open(file_path, 'r', encoding=encoding)
     except FileNotFoundError:
         print(file_path+'处文件不存在（可能是在更新中被删除)')
         return
@@ -119,8 +141,8 @@ def write_file(file_path,file_tree,id_tf):
         fw.write(line)
     fw.close()
 
-def read_folder(folder_path,filetree_name,file_name,re_list,id_tf):
-    file_tree = search_folder(folder_path,re_list,id_tf)
+def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding):
+    file_tree = search_folder(folder_path,re_list,id_tf,encoding)
     with open(filetree_name, 'w', newline='', encoding='UTF-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['文件路径', '正则表达式'])
@@ -135,7 +157,7 @@ def read_folder(folder_path,filetree_name,file_name,re_list,id_tf):
             for line in file_tree[file]:
                 writer.writerow([next(index), line[0], ''])
 
-def write_tree(file_name,filetree_name,id_tf):
+def write_tree(file_name,filetree_name,id_tf,encoding):
     with open(filetree_name, 'r', newline='', encoding='UTF-8') as csvfile:
         tree_reader = csv.reader(csvfile)
         with open(file_name, 'r', newline='', encoding='UTF-8') as text:
@@ -157,7 +179,7 @@ def write_tree(file_name,filetree_name,id_tf):
                     new_file_tree[i[0][0]] = [[new_text, i[0][1], i[0][2]]]
 
     for file_path in new_file_tree.keys():
-        write_file(file_path, new_file_tree,id_tf)
+        write_file(file_path, new_file_tree,id_tf,encoding)
 
 #储存结构{绝对路径：【【文本内容，正则表达式】，【。。。】，，。。。。】，绝对路径：【。。。】}
 if __name__=='__main__':
@@ -167,9 +189,11 @@ if __name__=='__main__':
         print('操作中')
         if enter=='r':
             for info in file_info:
-                read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'])
+                count = 0
+                read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'])
+                print(info['file_name'] + '读取出' + str(count) + '个词条')
         elif enter=='w':
             for info in file_info:
                 count=0
-                write_tree(info['file_name'],info['filetree_name'],info['id'])
+                write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
                 print(info['file_name']+'已写入'+str(count)+'个词条')
