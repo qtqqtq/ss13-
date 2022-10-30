@@ -1,0 +1,1343 @@
+文件路径,正则表达式
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AbductorConsole.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AbductorConsole.js,"(?<=content="").*(?="")","          icon=""exclamation-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AbductorConsole.js,"(?<=title="").*(?="")",    return <NoticeBox danger>No Agent Vest Detected</NoticeBox>;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AbductorConsole.js,"(?<=content="").*(?="")","            icon=""user-secret"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AccountingConsole.tsx,"(?<=title="").*(?="")",  const { PlayerAccounts } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Achievements.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Adminhelp.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Adminhelp.tsx,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Adminhelp.tsx,"(?<=content="").*(?="")",              fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")","            onClick={() => act('upload', { ref: entry.ref })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")","            onClick={() => act('download', { ref: entry.ref })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")",        }}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")",      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")","        onClick={() => act('refresh', { ref: entry.ref })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")","        onClick={() => act('save', { ref: entry.ref })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=content="").*(?="")","        content=""Save"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AdventureBrowser.tsx,"(?<=title="").*(?="")",  const { data } = useBackend<AdventureBrowserData>(context);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=content="").*(?="")",                  disabled={!data.power.main}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=content="").*(?="")",                  disabled={!data.power.backup}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=content="").*(?="")",                    disabled={!(data.wires.shock && data.shock === 0)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=content="").*(?="")",                    disabled={!data.wires.shock}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=content="").*(?="")",                    onClick={() => act('shock-temp')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiAirlock.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=title="").*(?="")",  const localStatus = dangerMap[data.danger_level] || dangerMap[0];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")","            icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")",        color={atmos_alarm && 'caution'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")",        color={mode === 3 && 'danger'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")","        icon=""sign-out-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")","        icon=""filter"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")","        icon=""cog"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirAlarm.js,"(?<=content="").*(?="")","        icon=""chart-bar"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiRestorer.tsx,"(?<=content="").*(?="")","            icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiRestorer.tsx,"(?<=title="").*(?="")",          />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockController.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=content="").*(?="")",              <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=content="").*(?="")",                icon={unres_direction & 1 ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=content="").*(?="")",                icon={unres_direction & 2 ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=content="").*(?="")",                icon={unres_direction & 4 ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AirlockElectronics.tsx,"(?<=content="").*(?="")",                icon={unres_direction & 8 ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AiVoiceChanger.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")","      theme=""hackerman"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",      )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=content="").*(?="")","              icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",        )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",  const { materials = [] } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",          {disk_error}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=content="").*(?="")","              icon=""save"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=content="").*(?="")",              onClick={() => act('ReadDisk')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=title="").*(?="")",            <Box>Description: {datadisk_desc}</Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AmmoWorkbench.js,"(?<=content="").*(?="")",          disabled={amountAvailable < 1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AnomalyRefinery.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AnomalyRefinery.js,"(?<=title="").*(?="")",          fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AnomalyRefinery.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoAssaultops.tsx,"(?<=title="").*(?="")",              </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoAssaultops.tsx,"(?<=title="").*(?="")",            </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoAssaultops.tsx,"(?<=title="").*(?="")",        <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoAssaultops.tsx,"(?<=title="").*(?="")",        <Divider vertical />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoChangeling.tsx,"(?<=title="").*(?="")",  const { true_name } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoChangeling.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoChangeling.tsx,"(?<=title="").*(?="")","const AbilitiesSection = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoChangeling.tsx,"(?<=title="").*(?="")",      scrollable={!!memories && !!memories.length}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoChangeling.tsx,"(?<=title="").*(?="")",      scrollable={!!stolen_antag_info}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoDemon.tsx,"(?<=title="").*(?="")",                <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoHeretic.tsx,"(?<=title="").*(?="")",      <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoHeretic.tsx,"(?<=title="").*(?="")",    <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoHeretic.tsx,"(?<=title="").*(?="")",  const { learnableKnowledge } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoMalf.tsx,"(?<=title="").*(?="")",  const { intro } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoMalf.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoMalf.tsx,"(?<=title="").*(?="")","  const { has_codewords, phrases, responses } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoNightmare.tsx,"(?<=title="").*(?="")","          <Stack.Item width=""53%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoTraitor.tsx,"(?<=title="").*(?="")",  const { intro } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoTraitor.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoTraitor.tsx,"(?<=title="").*(?="")",    data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoTraitor.tsx,"(?<=title="").*(?="")","  const { has_codewords, phrases, responses } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoWizard.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AntagInfoWizard.tsx,"(?<=title="").*(?="")",                  wizards.)
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=content="").*(?="")","          icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=title="").*(?="")",      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=content="").*(?="")","                      icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=content="").*(?="")","                      icon=""power-off"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=content="").*(?="")","                      icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Apc.js,"(?<=content="").*(?="")","                icon=""lightbulb-o"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=content="").*(?="")",          checked={sortByField === 'name'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=content="").*(?="")",          checked={sortByField === 'charge'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=content="").*(?="")",          checked={sortByField === 'draw'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=content="").*(?="")",            />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=content="").*(?="")","          color=""bad"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=title="").*(?="")",          </Table.Cell>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=title="").*(?="")",            Eqp
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ApcControl.js,"(?<=title="").*(?="")",            Lgt
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Aquarium.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Aquarium.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=content="").*(?="")","                  fontSize=""20px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=title="").*(?="")",            <Stack.Item mr={1}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=title="").*(?="")","            <Stack.Item width=""20%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=content="").*(?="")",                            )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ArmamentStation.js,"(?<=content="").*(?="")",                                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosAlertConsole.tsx,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosControlConsole.tsx,"(?<=title="").*(?="")",        {chambers.length > 1 && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosControlConsole.tsx,"(?<=content="").*(?="")","                icon=""undo"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosControlConsole.tsx,"(?<=title="").*(?="")",        {!!selectedChamber && !!data.control && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosControlPanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosFilter.tsx,"(?<=content="").*(?="")","                icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosMixer.tsx,"(?<=content="").*(?="")","                icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosPump.tsx,"(?<=content="").*(?="")","                  icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosPump.tsx,"(?<=content="").*(?="")","                      pressure: value,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosTempGate.tsx,"(?<=content="").*(?="")","                icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AtmosTempPump.tsx,"(?<=content="").*(?="")","                icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Autolathe.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Autolathe.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Autolathe.tsx,"(?<=title="").*(?="")",                  {filteredMaterials.length > 0 && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AutomatedAnnouncement.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AutomatedAnnouncement.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AutomatedAnnouncement.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\AuxBaseConsole.tsx,"(?<=content="").*(?="")","                  icon=""power-off"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=title="").*(?="")",          </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=content="").*(?="")","                icon=""redo-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=title="").*(?="")",            <Grid.Column size={1.5}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=content="").*(?="")","                  icon=""donate"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Bepis.tsx,"(?<=title="").*(?="")",            <Grid.Column>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Biogenerator.js,"(?<=content="").*(?="")",          />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Biogenerator.js,"(?<=content="").*(?="")","            icon=""cog"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BlackMarketUplink.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BlackMarketUplink.js,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BlackMarketUplink.js,"(?<=content="").*(?="")",      </Stack>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BloodFilter.tsx,"(?<=title="").*(?="")",            <ChemFilterPane
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceArtillery.tsx,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceArtillery.tsx,"(?<=content="").*(?="")",                    fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceArtillery.tsx,"(?<=content="").*(?="")","                  icon=""wrench"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceSender.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceSender.js,"(?<=title="").*(?="")",          fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceSender.js,"(?<=content="").*(?="")",                onClick={() => act('power')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceVendor.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceVendor.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceVendor.js,"(?<=content="").*(?="")","                    icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceVendor.js,"(?<=content="").*(?="")","                    icon=""minus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BluespaceVendor.js,"(?<=title="").*(?="")",              fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerChem.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerChem.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerChem.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerEvolution.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerEvolution.tsx,"(?<=title="").*(?="")",    <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorerEvolution.tsx,"(?<=title="").*(?="")",  const { learnableEvolution } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")","              icon=""pencil-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")",                icon={borg.emagged ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")",                icon={borg.lockdown ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")",                icon={borg.scrambledcodes ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")","                icon=""pencil-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")","                icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BorgPanel.js,"(?<=content="").*(?="")",              icon={borg.lawupdate ? 'check-square-o' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=content="").*(?="")","            icon=""power-off"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=content="").*(?="")","                      icon=""pen-fancy"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=content="").*(?="")","                      icon=""trash-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=title="").*(?="")",                </BlockQuote>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=title="").*(?="")",        <Flex.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BountyBoard.js,"(?<=content="").*(?="")","                  icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BrigTimer.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BrigTimer.js,"(?<=content="").*(?="")","            icon=""hourglass-start"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BrigTimer.js,"(?<=content="").*(?="")","            onClick={() => act('preset', { preset: 'short' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\BrigTimer.js,"(?<=content="").*(?="")","            onClick={() => act('preset', { preset: 'medium' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Canister.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Canister.js,"(?<=content="").*(?="")","                    icon=""pencil-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Canister.js,"(?<=title="").*(?="")","              height=""100%"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Canister.js,"(?<=content="").*(?="")",                    color={valveOpen && 'danger'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Canvas.tsx,"(?<=content="").*(?="")",                  onClick={() => act('finalize')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")",      : supplies.find((supply) => supply.name === activeSupplyName);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=content="").*(?="")",              ml={2}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")",  // Labeled list reimplementation to squeeze extra columns out of it
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=content="").*(?="")","            icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=content="").*(?="")","        color=""transparent"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")","  const { requestonly, away, docked, location, can_send } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=content="").*(?="")",              }}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")","const CargoHelp = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")",        </b>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cargo.js,"(?<=title="").*(?="")",        <b>9.</b> Click <i>Proceed</i>.
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoExpress.tsx,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoExpress.tsx,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=title="").*(?="")","      theme=""armament"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=content="").*(?="")",              <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=title="").*(?="")",            <Stack.Item mr={1}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=title="").*(?="")","            <Stack.Item width=""20%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=content="").*(?="")",                                {'Ammo Cost: ' + item.magazine_cost}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoGunConsole.js,"(?<=content="").*(?="")",                                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CargoHoldTerminal.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CellularEmporium.tsx,"(?<=content="").*(?="")","                  icon=""undo"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")",      <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")","const TabDrop = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")","      height=""100%"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")","          <Stack.Item maxHeight=""20px"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")",        fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")",                onClick={() => setEditingNameStatus(1)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")","              onClick={() => this.saveDataToPreset(presetIndex, data)}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")",      scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=content="").*(?="")","      title=""Style"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")","const Bays = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")","const Timing = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CentcomPodLauncher.js,"(?<=title="").*(?="")","const Sounds = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Changelog.js,"(?<=title="").*(?="")",    return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemAcclimator.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemAcclimator.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDebugSynthesizer.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDebugSynthesizer.tsx,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDebugSynthesizer.tsx,"(?<=content="").*(?="")","                  icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDebugSynthesizer.tsx,"(?<=content="").*(?="")","                icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")","                    color=""transparent"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")",                  disabled={!data.isBeakerLoaded}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")","                  color=""transparent"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")","                  color=""green"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")","          icon=""pen"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=title="").*(?="")",        />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=title="").*(?="")","                    reagent: chemical.id,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemDispenser.js,"(?<=content="").*(?="")","                    icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemFilter.tsx,"(?<=title="").*(?="")",            <ChemFilterPane
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemFilter.tsx,"(?<=title="").*(?="")",          </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemHeater.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemHeater.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemHeater.js,"(?<=title="").*(?="")",        {tutorialMessage && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemHeater.js,"(?<=title="").*(?="")",            {tutorialMessage}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemHeater.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")","              transferTo=""beaker"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")",                {pillBottleCurrentAmount} / {pillBottleMaxAmount} pills
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")",        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")",            })
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")","              amount: 5,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")","              amount: 10,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")","          icon=""ellipsis-h"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")","          icon=""question"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")",      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMaster.js,"(?<=content="").*(?="")","          icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMixingChamber.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemMixingChamber.js,"(?<=title="").*(?="")",          <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemPress.js,"(?<=content="").*(?="")",              <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemPress.js,"(?<=content="").*(?="")",              />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemPress.js,"(?<=content="").*(?="")","                    product: 'patch',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemPress.js,"(?<=content="").*(?="")","                    product: 'bottle',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemReactionChamber.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemReactionChamber.js,"(?<=title="").*(?="")",          <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemRecipeDebug.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemRecipeDebug.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemRecipeDebug.js,"(?<=title="").*(?="")",                onClick={() => act('export')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ChemRecipeDebug.js,"(?<=title="").*(?="")",          )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitAdminPanel.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitModule.js,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitModule.js,"(?<=title="").*(?="")","              <Stack.Item basis=""50%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitModule.js,"(?<=content="").*(?="")",                        fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitModule.js,"(?<=title="").*(?="")",              </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitModule.js,"(?<=content="").*(?="")","                            is_input: false,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=content="").*(?="")",                    checked={global}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=title="").*(?="")",                <Stack.Item grow={1} basis={0}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=content="").*(?="")",                          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=title="").*(?="")",                  </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=content="").*(?="")",                            param.datatype = type;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CircuitSignalHandler.tsx,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CivCargoHoldTerminal.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CivCargoHoldTerminal.js,"(?<=title="").*(?="")","  const na_text = 'N/A, please add a new bounty.';"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CivCargoHoldTerminal.js,"(?<=title="").*(?="")","  const { id_bounty_names, id_bounty_values } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Clipboard.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CodexGigas.tsx,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ColorBlindTester.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ColorBlindTester.tsx,"(?<=content="").*(?="")","            icon=""eye"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ColorBlindTester.tsx,"(?<=content="").*(?="")","          icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ColorMatrixEditor.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ColorMatrixEditor.tsx,"(?<=content="").*(?="")",                <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReport.tsx,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReport.tsx,"(?<=title="").*(?="")","  const { command_name, command_name_presets = [], custom_name } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReport.tsx,"(?<=title="").*(?="")","  const { announcer_sounds = [], played_sound } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReport.tsx,"(?<=title="").*(?="")",    command_report_content
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReport.tsx,"(?<=content="").*(?="")","            textAlign=""center"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReportConsole.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReportConsole.js,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReportConsole.js,"(?<=title="").*(?="")",            </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommandReportConsole.js,"(?<=content="").*(?="")","                    textAlign=""center"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","            icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","          icon=""chevron-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",  const { act } = useBackend(context);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",      {!syndicate && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""space-shuttle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",          )) || (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",      {!!canSetAlertLevel && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",          </Flex>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""bullhorn"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",          {!!aprilFools && !!canMakeAnnouncement && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""desktop"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","            icon=""envelope-o"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""shopping-cart"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""radiation"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""undo"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",            // SKYRAT EDIT BEGIN
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",              onClick={() => act('callThePolice')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",              onClick={() => act('callBreachControl')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",          {!!emagged && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","                  icon=""id-card-o"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","                  icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",      {!!canSendToSectors && sectors.length > 0 && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")",              <Flex.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","        icon=""chevron-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","            icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",        {(canLogOut || !authenticated) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",        {(!!canRequestSafeCode && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=content="").*(?="")","              icon=""key"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CommunicationsConsole.js,"(?<=title="").*(?="")",          (!!safeCodeDeliveryWait && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","            icon=""circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=title="").*(?="")","const CfStep1 = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","              icon=""laptop"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","              icon=""tablet-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")",          <Table.Cell>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","                  battery: '1',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","                  battery: '2',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")",              Hard Drive:
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","                  disk: '1',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","                  disk: '2',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")",              Secondary Card Reader:
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")","                  card: '0',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")",        mt={3}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=title="").*(?="")","const CfStep3 = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ComputerFabricator.js,"(?<=content="").*(?="")",        {data.credits} cr
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crayon.tsx,"(?<=title="").*(?="")",        {!!capOrChanges && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crayon.tsx,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crayon.tsx,"(?<=title="").*(?="")",        )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crayon.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crayon.tsx,"(?<=content="").*(?="")",            </LabeledList.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewConsole.js,"(?<=title="").*(?="")",export const CrewConsole = () => {
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewConsole.js,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewConsoleSkyrat.js,"(?<=title="").*(?="")",export const CrewConsoleSkyrat = () => {
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewConsoleSkyrat.js,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewManifest.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewManifest.js,"(?<=content="").*(?="")",                    {positions[dept].exceptions.includes(crewMember.trim) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewManifest.js,"(?<=content="").*(?="")",                    {crewMember.trim === 'Captain' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CrewManifest.js,"(?<=content="").*(?="")",                    {commandJobs.includes(crewMember.trim) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cryo.js,"(?<=title="").*(?="")",    <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cryo.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cryo.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Cryo.js,"(?<=content="").*(?="")",            onClick={() => act('ejectbeaker')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CryopodConsole.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CryopodConsole.js,"(?<=content="").*(?="")","                icon=""exclamation-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crystallizer.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crystallizer.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Crystallizer.js,"(?<=title="").*(?="")",              </ProgressBar>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CTFPanel.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CTFPanel.tsx,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CTFPanel.tsx,"(?<=content="").*(?="")",                  />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CyborgBootDebug.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\CyborgBootDebug.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DecalPainter.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DecalPainter.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DepartmentOrders.tsx,"(?<=title="").*(?="")",  const { time_left } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DestinationTagger.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DisposalUnit.js,"(?<=content="").*(?="")",                disabled={data.isai}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaVault.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaVault.js,"(?<=title="").*(?="")",        {!!(completed && !used) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DopplerArray.js,"(?<=content="").*(?="")","        icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DopplerArray.js,"(?<=content="").*(?="")","                    icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DopplerArray.js,"(?<=content="").*(?="")","                    icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Electrolyzer.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Electrolyzer.tsx,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Electropack.js,"(?<=content="").*(?="")","                  icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Electropack.js,"(?<=content="").*(?="")","              label=""Code"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ElevatorPanel.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EmergencyShuttleConsole.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EmergencyShuttleConsole.js,"(?<=content="").*(?="")","                icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EmergencyShuttleConsole.js,"(?<=content="").*(?="")","                  color=""good"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EmergencyShuttleConsole.js,"(?<=content="").*(?="")","                  icon=""minus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EmergencyShuttleConsole.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EngravedMessage.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EngravedMessage.js,"(?<=content="").*(?="")","                icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                  icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")",                />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                  icon=""user-plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")",                  onClick={() => act('start_player_vote')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                  icon=""stopwatch"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                  icon=""ban"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                  icon=""clock"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")",                  onClick={() => act('reschedule')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=content="").*(?="")","                          icon=""vote-yea"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\EventPanel.js,"(?<=title="").*(?="")","                height=""150px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExaminePanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExaminePanel.js,"(?<=title="").*(?="")",            {!headshot ? (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExaminePanel.js,"(?<=title="").*(?="")",              <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExaminePanel.js,"(?<=title="").*(?="")",                </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExaminePanel.js,"(?<=title="").*(?="")",                      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")",        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",  const { all_drones } = props;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")",              <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",      <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")","                icon=""plug"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")","                icon=""bomb"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",      <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")","                  icon=""wrench"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")",                mr={0}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",            mt={1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")","        <Stack.Item align=""center"" grow>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=content="").*(?="")",            />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")","  const { drone, event } = props;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",  const imgSource = rawData ? rawData : resolveAsset(adventure_data.image);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExodroneConsole.tsx,"(?<=title="").*(?="")",      <Stack.Item height={10}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",        </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",          fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",      {scan_available && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",            {!point_scan_complete && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",            {!deep_scan_complete && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",                  details.
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",          <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",              </Stack>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",                  fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=title="").*(?="")",              <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExoscannerConsole.tsx,"(?<=content="").*(?="")",                  scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitControlConsole.js,"(?<=content="").*(?="")","                  icon=""envelope"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitFabricator.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitFabricator.tsx,"(?<=title="").*(?="")",            fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitFabricator.tsx,"(?<=content="").*(?="")","                  icon=""minus-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitFabricator.tsx,"(?<=content="").*(?="")",                    disabled={!queue.length}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExosuitFabricator.tsx,"(?<=content="").*(?="")",                )) || (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExperimentConfigure.js,"(?<=title="").*(?="")",          <Flex.Item mb={1}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ExperimentConfigure.js,"(?<=title="").*(?="")",              <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Fax.tsx,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Fax.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Fax.tsx,"(?<=title="").*(?="")",            )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Fax.tsx,"(?<=title="").*(?="")",          </Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Filteriffic.js,"(?<=content="").*(?="")",          <Button.Input
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Filteriffic.js,"(?<=title="").*(?="")",    false
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Filteriffic.js,"(?<=content="").*(?="")",                <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\FishingPortalGenerator.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ForbiddenLore.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ForceEvent.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ForceEvent.js,"(?<=content="").*(?="")",                  mt={0.2}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                  icon=""plus-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                  icon=""minus-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""meteor"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""pastafarianism"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""user-astronaut"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""robot"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""gamepad"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GhostPoolProtection.js,"(?<=content="").*(?="")","                icon=""check"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=title="").*(?="")",          <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=title="").*(?="")",            </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=content="").*(?="")",                <Table.Row bold>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=content="").*(?="")","                  <Table.Cell content=""Name"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Gps.js,"(?<=content="").*(?="")","                  <Table.Cell collapsing content=""Direction"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=title="").*(?="")",  const colors = data.colors || [];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=title="").*(?="")","const IconStatesDisplay = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=title="").*(?="")","export const GreyscaleModifyMenu = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=content="").*(?="")",                mr={-0.2}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=content="").*(?="")",                onClick={() => act('refresh_file')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=content="").*(?="")",          <Flex.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GreyscaleModifyMenu.tsx,"(?<=content="").*(?="")",            <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagItemReclaimer.tsx,"(?<=title="").*(?="")",        {mobs.length > 0 && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagItemReclaimer.tsx,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagTeleporterConsole.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagTeleporterConsole.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagTeleporterConsole.js,"(?<=content="").*(?="")",                !beacon && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagTeleporterConsole.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\GulagTeleporterConsole.js,"(?<=content="").*(?="")",          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holodeck.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holodeck.js,"(?<=content="").*(?="")",              icon={emagged ? 'unlock' : 'lock'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holodeck.js,"(?<=title="").*(?="")",        {!!emagged && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=content="").*(?="")","              icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=content="").*(?="")","                icon=""phone-slash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=content="").*(?="")","            icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=content="").*(?="")","                icon=""exchange-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Holopad.js,"(?<=content="").*(?="")","                icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HoloPay.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HoloPay.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HoloPay.tsx,"(?<=title="").*(?="")",      scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HoloPay.tsx,"(?<=content="").*(?="")",            placeholder={decodeHtmlEntities(name)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HotkeysHelp.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HotkeysHelp.tsx,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HypnoChair.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HypnoChair.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\HypnoChair.js,"(?<=title="").*(?="")",          </LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ImplantChair.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ImplantChair.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Intellicard.js,"(?<=content="").*(?="")","                  icon=""signal"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Intellicard.js,"(?<=content="").*(?="")","                  icon=""microphone"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Interview.js,"(?<=title="").*(?="")",        {(!read_only && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Interview.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Interview.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Interview.js,"(?<=content="").*(?="")",                  />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Interview.js,"(?<=content="").*(?="")",                    onClick={() => act('approve')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\InterviewManager.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\InterviewManager.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IVDrip.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IVDrip.js,"(?<=content="").*(?="")",                disabled={!beakerAttached || useInternalStorage}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IVDrip.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Jukebox.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Jukebox.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\KeycardAuth.js,"(?<=content="").*(?="")",                    onClick={() => act('auth_swipe')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\KeycardAuth.js,"(?<=content="").*(?="")",                      }}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\KeycardAuth.js,"(?<=content="").*(?="")",                      onClick={() => act('emergency_maint')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\KeycardAuth.js,"(?<=content="").*(?="")",                      onClick={() => act('bsa_unlock')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\KeycardAuth.js,"(?<=content="").*(?="")",                        onClick={() => act('pin_unrestrict')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaborClaimConsole.js,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaborClaimConsole.js,"(?<=content="").*(?="")",                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaborClaimConsole.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=content="").*(?="")",                        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=content="").*(?="")",                        />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LanguageMenu.js,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=content="").*(?="")","          icon=""arrow-up"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=content="").*(?="")","          icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=title="").*(?="")",        <Grid.Column>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=title="").*(?="")",        </Grid.Column>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=content="").*(?="")","            icon=""upload"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadConsole.js,"(?<=content="").*(?="")","            icon=""download"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LaunchpadRemote.tsx,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=title="").*(?="")",      theme={display_lore ? 'spookyconsole' : ''}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","          icon=""barcode"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","            icon=""upload"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","            icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=title="").*(?="")","                fontSize=""15px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","                icon=""newspaper"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","                icon=""server"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","      <Stack justify=""center"" align=""center"" pt={2}>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","                category: display_category,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","              icon=""scroll"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","              icon=""cross"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")","            icon=""check"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryConsole.js,"(?<=content="").*(?="")",            onClick={() => act('lore_spawn')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryScanner.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LibraryVisitor.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Limbgrower.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Limbgrower.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Limbgrower.js,"(?<=content="").*(?="")","                    width=""120px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Limbgrower.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Limbgrower.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=content="").*(?="")","                  align=""center"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=content="").*(?="")","                color=""good"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=content="").*(?="")","                        align=""center"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LoadoutManager.js,"(?<=content="").*(?="")",                                checked={selected_loadout.includes(item.path)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",      scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=content="").*(?="")",            `}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=content="").*(?="")",              rejoin SS13.
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",  const { all_roles } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",  const { judgement_phase } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=content="").*(?="")","          icon=""smile-beam"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",  const { players } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")","const MafiaAdmin = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MafiaPanel.js,"(?<=title="").*(?="")",      <Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassDriverControl.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassDriverControl.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassDriverControl.js,"(?<=content="").*(?="")",              icon={'toggle-on'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassDriverControl.js,"(?<=content="").*(?="")",                      icon={'bomb'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassDriverControl.js,"(?<=content="").*(?="")",                fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=content="").*(?="")","              icon=""power-off"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=title="").*(?="")",          )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MassSpec.js,"(?<=content="").*(?="")",                    {beaker2CurrentVolume} / {beaker2MaxVolume} units
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MechBayPowerConsole.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MechBayPowerConsole.js,"(?<=content="").*(?="")","              icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MechpadConsole.js,"(?<=content="").*(?="")","          icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MechpadConsole.js,"(?<=content="").*(?="")","          icon=""upload"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MedicalKiosk.js,"(?<=content="").*(?="")",        onClick={() => act('clearTarget')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MedicalKiosk.js,"(?<=title="").*(?="")",  } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MedicalKiosk.js,"(?<=title="").*(?="")","    blood_status,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MedicalKiosk.js,"(?<=title="").*(?="")","  const { clone_health, brain_damage, brain_health, trauma_status } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MedicalKiosk.js,"(?<=title="").*(?="")","    hallucinating_status,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MemoryPanel.js,"(?<=title="").*(?="")",  const memories = data.memories || [];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MemoryPanel.js,"(?<=title="").*(?="")","          maxHeight=""32px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=title="").*(?="")",              )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=content="").*(?="")","              title=""Phase Emitter"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=content="").*(?="")","                        icon=""wrench"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MicrofusionGunControl.js,"(?<=content="").*(?="")","                        icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Microscope.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",            {!mobName && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_selected_organ === null && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_selected_organ === 'the breasts' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_vagina === null && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                            current_vagina !== null && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_selected_organ === 'the vagina' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")","                                content=""Vagina"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                            current_testicles !== null && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_selected_organ === 'the testicles' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {current_testicles === null && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")","                        icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        {current_vessel !== 'MilkContainer' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        {current_vessel === 'GirlcumContainer' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        {current_vessel !== 'GirlcumContainer' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {Math.round(girlcumTankMaxVolume)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        {current_vessel === 'SemenContainer' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                        {current_vessel !== 'SemenContainer' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MilkingMachine.js,"(?<=content="").*(?="")",                          {Math.round(semenTankMaxVolume)}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MinigamesMenu.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MinigamesMenu.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MinigamesMenu.tsx,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MinigamesMenu.tsx,"(?<=content="").*(?="")",            </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MiningVendor.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MiningVendor.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODpaint.js,"(?<=title="").*(?="")","          <Stack.Item width=""25%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODpaint.js,"(?<=title="").*(?="")","          <Stack.Item width=""45%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",          </ProgressBar>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",  } = props;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",        <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",        </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={active ? userburn : 0} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={active ? usertoxin : 0} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")","    statusviruses,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",            {active ? statustime : '00:00:00'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",            {active ? statusid || '0' : '???'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",          <AnimatedNumber value={active ? statushealth : 0} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={active ? statusbrute : 0} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={active ? statusburn : 0} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={statustoxin} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",              <AnimatedNumber value={statusoxy} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")","          <Section title=""Body Temperature"">{active ? statustemp : 0}</Section>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",            {active ? statusnutrition : 0}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",      {!!active && !!statusviruses && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",      : 'Inactive';
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")","    charge,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")","    <Section title=""Hardware"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",      </Collapsible>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",  const info_modules = modules.filter((module) => !!module.id);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",    null
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\MODsuit.js,"(?<=title="").*(?="")",      theme={ui_theme}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")","                    icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")",                {!!haspai && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")","                  icon=""stop"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")",                  onClick={() => act('stop')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")","                  icon=""home"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")",                  checked={autoReturn}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")",                  checked={autoPickup}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mule.js,"(?<=content="").*(?="")",                  checked={reportDelivery}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",                  selected={!lockedmode}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",                  selected={!!lockedmode}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",            <Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",                  : 'Dismissed Wanted Issue:'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")","              icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")",              mt={1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Newscaster.js,"(?<=content="").*(?="")","              icon=""newspaper"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NightmareInfo.js,"(?<=title="").*(?="")","          <Stack.Item width=""53%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NotificationPreferences.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NotificationPreferences.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtnetRelay.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtnetRelay.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtnetRelay.tsx,"(?<=content="").*(?="")","                icon=""signal"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=title="").*(?="")",      <NtosWindow.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=content="").*(?="")",              onClick={() => act('Attack')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=content="").*(?="")",              onClick={() => act('Heal')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=content="").*(?="")",              onClick={() => act('Recharge_Power')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=content="").*(?="")",              onClick={() => act('Start_Game')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosArcade.js,"(?<=content="").*(?="")",              onClick={() => act('Dispense_Tickets')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCard.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCard.js,"(?<=content="").*(?="")",                  <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCard.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCard.js,"(?<=content="").*(?="")","            icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCard.js,"(?<=title="").*(?="")",    data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosConfiguration.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosConfiguration.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosConfiguration.js,"(?<=title="").*(?="")",          </ProgressBar>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosConfiguration.js,"(?<=content="").*(?="")",                    <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCrewManifest.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCrewManifest.js,"(?<=content="").*(?="")","              icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosCyborgRemoteMonitor.js,"(?<=content="").*(?="")","                      icon=""terminal"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosFileManager.js,"(?<=title="").*(?="")",        {usbconnected && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosJobManager.js,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosJobManager.js,"(?<=content="").*(?="")","                  act('PRG_open_job', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=content="").*(?="")","                  icon=""dna"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=title="").*(?="")",        {!!pai && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=content="").*(?="")","                    color=""transparent"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=content="").*(?="")","                    icon=""cat"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=title="").*(?="")","                        option: 'interact',"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMain.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMessenger.js,"(?<=content="").*(?="")",                onClick={() => act('PDA_sAndR')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMessenger.js,"(?<=content="").*(?="")","                icon=""comment"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMessenger.js,"(?<=content="").*(?="")",                mt={1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMessenger.js,"(?<=content="").*(?="")","              icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosMessenger.js,"(?<=content="").*(?="")","              icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")",                    fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")",                            fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")",                          <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")",                            disabled={strong}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")",                            onClick={() => act('PRG_deletechannel')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetChat.js,"(?<=content="").*(?="")","                                new_name: value,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetDos.js,"(?<=content="").*(?="")",          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetDos.js,"(?<=content="").*(?="")",        bold
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetDownloader.js,"(?<=content="").*(?="")",            <Box mb={1}>{error}</Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetDownloader.js,"(?<=content="").*(?="")","                  icon=""download"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=title="").*(?="")",        </LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=content="").*(?="")","                  icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosNetMonitor.js,"(?<=content="").*(?="")","              icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=title="").*(?="")",      <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=content="").*(?="")",            <Tooltip
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=content="").*(?="")",          <Tooltip
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=title="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPay.tsx,"(?<=title="").*(?="")",  const { transaction_list = [] } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPortraitPrinter.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPortraitPrinter.js,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosPortraitPrinter.js,"(?<=content="").*(?="")","                        icon=""check"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRevelation.tsx,"(?<=content="").*(?="")",            fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRevelation.tsx,"(?<=content="").*(?="")",            bold
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=title="").*(?="")",      <NtosWindow.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")",                fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")",                  })
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('setid', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('sethome', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")",              <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('autoret', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('autopick', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")",          {!mule && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                    robot: robot.bot_ref,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('patrolon', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRoboControl.js,"(?<=content="").*(?="")","                  act('summon', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=title="").*(?="")","            <Flex.Item width=""30%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=title="").*(?="")","            <Flex.Item grow={1} basis=""content"" ml={1}>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=title="").*(?="")",                  }}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                      <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                      label={'Stored Photos (' + printerPictures + ')'}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                        onClick={() => act('viewImage')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                        <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosRobotact.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=title="").*(?="")",    <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")","                  position=""left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")","                      selected_expath: expList[experiment_name],"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")","                      selected_tier: Number(new_tier),"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")","                      selected_partner: allowedPartners[new_partner],"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")","              position=""top"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")",          </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")",          onClick={() => act('publish')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosScipaper.js,"(?<=content="").*(?="")",                      }
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=content="").*(?="")","          icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=title="").*(?="")","  const { has_id_slot, current_user } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=content="").*(?="")",          onClick={() => act('selectid')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=content="").*(?="")",          onClick={() => act('print')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=content="").*(?="")",          onClick={() => act('setsplit')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosShipping.tsx,"(?<=content="").*(?="")","          icon=""sync-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosSkillTracker.js,"(?<=title="").*(?="")",      <NtosWindow.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosSupermatter.tsx,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosSupermatter.tsx,"(?<=content="").*(?="")","                icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NtosSupermatter.tsx,"(?<=content="").*(?="")","                      onClick={() => act('PRG_focus', { 'focus_uid': sm.uid })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NuclearBomb.js,"(?<=content="").*(?="")",                  bold
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\NuclearBomb.js,"(?<=content="").*(?="")",                />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OperatingComputer.js,"(?<=title="").*(?="")",    <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OperatingComputer.js,"(?<=title="").*(?="")",  const { surgeries = [] } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OperatingComputer.js,"(?<=content="").*(?="")","        icon=""download"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={!can_submit || blocked}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={!can_request_update || request_updates_muted}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={can_edit}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={status === 'Not submitted'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",          />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","              icon=""plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")","  const { equipment_list = [], selected_equipment = [], can_edit } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                          color=""bad"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",          )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                            color=""good"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")","    raw_status,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",          </LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={approved}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                tooltip=""Approve all objectives and equipment as well as the application. Make sure you have reviewed the application and objectives first!"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                tooltip=""Issue the player with all approved equipment."""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                disabled={denied}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                  tooltip=""Unblock the user from submitting applications."""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                  tooltip=""Block the user from submitting applications."""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                tooltip=""Assign yourself as the handling admin."""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                  icon=""volume-up"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                  icon=""volume-mute"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")","                tooltip=""Follow User Mob"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",                onClick={() => act('flw_user')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",            <Box preserveWhitespace>{backstory}</Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                        objective.status_text !== 'Not Reviewed'
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                        !objective.approved &&
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=title="").*(?="")",              </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                        equipment.status !== 'Not Reviewed'
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OpposingForcePanel.js,"(?<=content="").*(?="")",                        !equipment.approved &&
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")",      })}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")","      <ObservableSection color=""good"" section={alive} title=""Alive"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")","      <ObservableSection section={dead} title=""Dead"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")","      <ObservableSection section={ghosts} title=""Ghosts"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Orbit.tsx,"(?<=title="").*(?="")","      <ObservableSection section={misc} title=""Misc"" />"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreBox.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreBox.tsx,"(?<=content="").*(?="")","          title=""Ores"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=content="").*(?="")",              ml={2}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=content="").*(?="")",                        disabled={!design.canupload}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=content="").*(?="")","              icon=""save"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=title="").*(?="")",          )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=title="").*(?="")",          </Table>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OreRedemptionMachine.js,"(?<=content="").*(?="")",          disabled={amountAvailable < 1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","            icon=""skull"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","                  icon=""skull"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","            icon=""play"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","            icon=""info"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=title="").*(?="")","        color=""label"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")",        buttons={
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","                    icon=""skull"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=title="").*(?="")",        </Stack>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","                  icon=""arrow-right"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")","            icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")",            <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OrionGame.js,"(?<=content="").*(?="")",                onClick={() => act('raid_spaceport')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OutfitEditor.js,"(?<=title="").*(?="")","                  icon=""pencil-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OutfitManager.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\OutfitManager.js,"(?<=title="").*(?="")",          scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiCard.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingAdminPanel.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingAdminPanel.tsx,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingAdminPanel.tsx,"(?<=title="").*(?="")",            </LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingMachine.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingMachine.js,"(?<=content="").*(?="")",              disabled={!hasPDA}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingMachine.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingMachine.js,"(?<=content="").*(?="")",                disabled={!hasID}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaintingMachine.js,"(?<=content="").*(?="")",                onClick={() => act('reset_card')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiSubmit.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiSubmit.tsx,"(?<=title="").*(?="")","const DetailsDisplay = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiSubmit.tsx,"(?<=title="").*(?="")","  const { name, description, comments } = input;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaperSheet.tsx,"(?<=title="").*(?="")",              <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaperSheet.tsx,"(?<=content="").*(?="")",                      disabled={!savableData || tooManyCharacters}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ParticleAccelerator.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=title="").*(?="")","          <Stack.Item width=""150px"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=title="").*(?="")",              fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=content="").*(?="")",                  <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=content="").*(?="")",                  />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PersonalCrafting.tsx,"(?<=content="").*(?="")","              icon=""cog"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",        ) : (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",          <Blanks />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",          <Options />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")","  const { color_mode, is_photo, num_copies, has_enough_toner } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",    (blank) => blank.category === selectedCategory
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Photocopier.js,"(?<=title="").*(?="")",  const { can_AI_print } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=title="").*(?="")",      }>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")",          <Tooltip
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")",          </Tooltip>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")",              {workingPlane.offset}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")","              {workingPlane.render_target || '""""'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")",              {workingPlane.blend_mode}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=content="").*(?="")",      <Tooltip
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PlaneMasterDebug.tsx,"(?<=title="").*(?="")",        scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableChemMixer.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableChemMixer.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableChemMixer.js,"(?<=content="").*(?="")","                    icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableGenerator.js,"(?<=title="").*(?="")",        {!data.anchored && <NoticeBox>Generator not anchored.</NoticeBox>}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableGenerator.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortablePump.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableScrubber.tsx,"(?<=title="").*(?="")",        <PortableBasicInfo />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                  checked={!neutralize_heads}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={neutralize_all}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={check_weapons}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={neutralize_unidentified}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={neutralize_nonmindshielded}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={neutralize_criminals}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortableTurret.js,"(?<=content="").*(?="")",                checked={neutralize_cyborgs}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortraitPicker.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortraitPicker.js,"(?<=title="").*(?="")",          <Flex.Item mb={1}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PortraitPicker.js,"(?<=content="").*(?="")","                        icon=""check"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=content="").*(?="")",            checked={sortByField === 'name'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=content="").*(?="")",            checked={sortByField === 'charge'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=content="").*(?="")",            checked={sortByField === 'draw'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=title="").*(?="")","            <Table.Cell textAlign=""right"">Draw</Table.Cell>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=title="").*(?="")",            </Table.Cell>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PowerMonitor.js,"(?<=title="").*(?="")",              Lgt
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProbingConsole.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProbingConsole.js,"(?<=content="").*(?="")","                  icon=""thermometer"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProbingConsole.js,"(?<=content="").*(?="")","                  icon=""brain"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProbingConsole.js,"(?<=content="").*(?="")","                  icon=""search"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProcCallMenu.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProcCallMenu.tsx,"(?<=content="").*(?="")",                  <Button.Checkbox
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProcCallMenu.tsx,"(?<=title="").*(?="")",          <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProcCallMenu.tsx,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                color=""green"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                color=""white"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                color=""olive"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                icon=""plane-departure"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                color=""yellow"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=title="").*(?="")",  const TabComponent = TAB2NAME[tabIndex - 1].component();
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                    icon=""cart-plus"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProduceConsole.js,"(?<=content="").*(?="")","                    icon=""dollar-sign"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ProximitySensor.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RadioactiveMicrolaser.js,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RadioactiveMicrolaser.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RadioactiveMicrolaser.js,"(?<=title="").*(?="")",                onClick={() => act('scanmode')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=title="").*(?="")",                <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=content="").*(?="")",                      <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=content="").*(?="")",                      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=title="").*(?="")",              </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=content="").*(?="")","                  minWidth=""300px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=title="").*(?="")",          </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Reagents.js,"(?<=content="").*(?="")",          />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=content="").*(?="")",                    />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=content="").*(?="")",                    {positions[dept].exceptions.includes(crewMember.rank) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=content="").*(?="")",                    {crewMember.rank === 'Captain' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RecordManifest.js,"(?<=content="").*(?="")",                    {commandJobs.includes(crewMember.rank) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ReligiousTool.js,"(?<=title="").*(?="")",        <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ReligiousTool.js,"(?<=title="").*(?="")",  const { sects } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RemoteRobotControl.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RemoteRobotControl.js,"(?<=content="").*(?="")","              icon=""tools"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RemoteRobotControl.js,"(?<=content="").*(?="")","              icon=""phone-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RequestManager.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RequestManager.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RoboticsControlConsole.js,"(?<=content="").*(?="")","                icon=""terminal"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RoboticsControlConsole.js,"(?<=content="").*(?="")","                icon=""bomb"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\RoboticsControlConsole.js,"(?<=content="").*(?="")","            icon=""bomb"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Roulette.js,"(?<=content="").*(?="")",              fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Roulette.js,"(?<=content="").*(?="")",              }
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Roulette.js,"(?<=content="").*(?="")","                  amount: 50,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Roulette.js,"(?<=content="").*(?="")","                  amount: 100,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Roulette.js,"(?<=content="").*(?="")",                  fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Safe.js,"(?<=title="").*(?="")","      className=""Safe__help"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SatelliteControl.tsx,"(?<=title="").*(?="")",  const { satellites = [] } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","            icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")",        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","          onClick={() => act('set_mode', { new_mode: 'Wanted' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","          onClick={() => act('set_mode', { new_mode: 'Guns' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","          onClick={() => act('set_mode', { new_mode: 'Mindshield' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","          onClick={() => act('set_mode', { new_mode: 'Disease' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")",        <Button //  SKYRAT EDIT START - MORE SCANNER GATE OPTIONS
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ScannerGate.js,"(?<=content="").*(?="")","          onClick={() => act('set_mode', { new_mode: 'Gender' })} //  SKYRAT EDIT END - MORE SCANNER GATE OPTIONS"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",          onClick={() => act('maint_access_brig')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",              lineHeight={lineHeightNormal}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""biohazard"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""grin-beam-sweat"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""magic"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""bomb"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""signal"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""robot"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""address-book"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""dna"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""fingerprint"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""flag"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""sync-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""moon"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""pencil-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""eraser"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","const FunTab = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""bolt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",              onClick={() => act('power')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""plug"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""user-ninja"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""users"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""bullhorn"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",              onClick={() => act('onlyone')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",              onClick={() => act('guns')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""meteor"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""hammer"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""dollar-sign"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","              icon=""bullseye"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",              onClick={() => act('customportal')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",                fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                icon=""brain"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",            fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","            icon=""paw"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","            icon=""fire"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")",            onClick={() => act('floorlava')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                icon=""cat"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                icon=""user"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                icon=""flushed"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                icon=""sync-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=title="").*(?="")",  const TabComponent = TAB2NAME[tabIndex - 1].component();
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""address-card"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""eye"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""check-circle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""smile"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""glasses"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Secrets.js,"(?<=content="").*(?="")","                    icon=""smile-wink"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SeedExtractor.js,"(?<=title="").*(?="")",      <Window.Content scrollable>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SeedExtractor.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SentienceFunBalloon.js,"(?<=title="").*(?="")",        <Stack vertical>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SentienceFunBalloon.js,"(?<=content="").*(?="")","              textAlign=""center"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerControlPanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerControlPanel.js,"(?<=content="").*(?="")","                  icon=""connect"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=title="").*(?="")",      <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=content="").*(?="")","            placeholder=""Network ID"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=title="").*(?="")",          scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ServerMonitor.js,"(?<=content="").*(?="")","          title=""Detected Telecommunication Servers"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleConsole.js,"(?<=content="").*(?="")","              icon=""arrow-circle-right"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleConsole.js,"(?<=content="").*(?="")",          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",              <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",            </Table.Cell>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=title="").*(?="")",          ) : (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=title="").*(?="")",          )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")",            />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ShuttleManipulator.js,"(?<=content="").*(?="")","                act('preview', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Signaler.js,"(?<=content="").*(?="")","            icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Signaler.js,"(?<=content="").*(?="")","                code: value,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Signaler.js,"(?<=content="").*(?="")","            icon=""arrow-up"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Signalvib.js,"(?<=content="").*(?="")","                  icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Signalvib.js,"(?<=content="").*(?="")","              label=""Code"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SimpleBot.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SimpleBot.tsx,"(?<=title="").*(?="")",            <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SimpleBot.tsx,"(?<=content="").*(?="")","const MedbotThreshold = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SimpleBot.tsx,"(?<=content="").*(?="")","const FloorbotLine = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillPanel.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillPanel.js,"(?<=content="").*(?="")",                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillPanel.js,"(?<=content="").*(?="")",                />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillPanel.js,"(?<=content="").*(?="")","                    act('set_exp', {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillStation.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillStation.js,"(?<=content="").*(?="")",            onClick={() => act('implant')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillStation.js,"(?<=content="").*(?="")",            onClick={() => act('eject')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillStation.js,"(?<=title="").*(?="")",  const current = data.current || [];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SkillStation.js,"(?<=title="").*(?="")","  const { working, timeleft, error } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Sleeper.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmartVend.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmartVend.js,"(?<=content="").*(?="")",                    <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmartVend.js,"(?<=content="").*(?="")",                    />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Smes.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Smes.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Smes.js,"(?<=title="").*(?="")",          </LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmokeMachine.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmokeMachine.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SmokeMachine.js,"(?<=content="").*(?="")","          title=""Contents"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=content="").*(?="")","              icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=content="").*(?="")","                icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=content="").*(?="")","                icon=""clock-o"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SolarControl.js,"(?<=content="").*(?="")","                icon=""sync"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=content="").*(?="")","                  icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=content="").*(?="")","                    icon=""thermometer-half"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=content="").*(?="")","                    icon=""fire-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpaceHeater.js,"(?<=content="").*(?="")","                    icon=""fan"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpawnersMenu.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpawnersMenu.tsx,"(?<=content="").*(?="")",                      <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SpawnersMenu.tsx,"(?<=content="").*(?="")",                      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")",        disabled
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""clipboard"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""fire"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""shield-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""globe-americas"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""users"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""crown"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""magic"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""thumbs-up"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","        icon=""dice"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")",          icon={icon}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","          icon=""dice-three"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","            icon=""dice"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=title="").*(?="")",    ? entries.filter((entry) => entry.cat === TAB2NAME[tabIndex].title)
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","                        icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")","                                        icon=""arrow-left"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")",                        disabled={tabIndex === 9}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Spellbook.js,"(?<=content="").*(?="")",                                          Cast {entry.times} Time(s).
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\StackingConsole.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\StackingConsole.js,"(?<=content="").*(?="")","                    icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\StationTraitsPanel.tsx,"(?<=content="").*(?="")",              <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\StationTraitsPanel.tsx,"(?<=title="").*(?="")",  }
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")",            <SupermatterEntry
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")",                )
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")","                          {toFixed(amount, 2) + ' MeV/cm3'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")","                          {toFixed(amount, 2) + ' x'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")","                  {toFixed(gas_total_moles, 2) + ' Moles'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")","                  {toFixed(gas_temperature, 2) + ' K'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")","                          {toFixed(amount, 2) + ' K'}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")",                        <Box color={amount < 0 ? 'green' : 'red'}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Supermatter.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",          </Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",          fluid
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",          Contractor Status
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",                <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",        buttons={
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=title="").*(?="")",        })}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\SyndContractor.js,"(?<=content="").*(?="")",                )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Tank.js,"(?<=content="").*(?="")","                icon=""undo"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")","                icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=title="").*(?="")",    <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")",              <AlertBoxes
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")",                active={pressure < leakPressure}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")",                  <AlertBoxes
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")",                </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=title="").*(?="")",              </Stack>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")","                    icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankCompressor.js,"(?<=content="").*(?="")","                    icon=""print"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankDispenser.js,"(?<=content="").*(?="")",                  icon={data.plasma ? 'square' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TankDispenser.js,"(?<=content="").*(?="")",                  icon={data.oxygen ? 'square' : 'square-o'}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Techweb.js,"(?<=title="").*(?="")","          className=""Techweb__NodeExperimentsRequired"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Techweb.js,"(?<=title="").*(?="")","          className=""TechwebNodeExperimentsRequired"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",        {!multitool && <NoticeBox>Use a multitool to make changes.</NoticeBox>}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",            {type === 'bus' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",            {type === 'relay' && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",                  onClick={() => act('broadcast')}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",            </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Telecomms.js,"(?<=title="").*(?="")",            {!!multitool && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Teleporter.js,"(?<=content="").*(?="")","                      icon=""tools"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Terminal.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ThermoMachine.js,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ThermoMachine.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ThermoMachine.js,"(?<=title="").*(?="")",                disabled={data.target === data.min}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ThermoMachine.js,"(?<=title="").*(?="")",                disabled={data.target === data.initial}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\ThermoMachine.js,"(?<=title="").*(?="")",                disabled={data.target === data.max}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Timer.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrackedPlaytime.js,"(?<=title="").*(?="")",  } = data;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrackedPlaytime.js,"(?<=title="").*(?="")",          <Box>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrackedPlaytime.js,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrackedPlaytime.js,"(?<=title="").*(?="")",              <PlaytimeSection playtimes={jobPlaytimes} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrainingMachine.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TrainingMachine.tsx,"(?<=title="").*(?="")",      <Window.Content>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TramControl.js,"(?<=title="").*(?="")",          {(destinations.length - 1 !== destinations.indexOf(dest) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TramControl.js,"(?<=title="").*(?="")",        )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TramControl.js,"(?<=content="").*(?="")",                  disabled={tram_location === destinations[transitIndex].name}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TransferValve.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TransferValve.js,"(?<=content="").*(?="")",            <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TransferValve.js,"(?<=title="").*(?="")",              )}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TransferValve.js,"(?<=title="").*(?="")","                <Box color=""average"">No Tank</Box>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\TurbineComputer.js,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\VaultController.tsx,"(?<=title="").*(?="")",        <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Vendatray.tsx,"(?<=content="").*(?="")","              icon=""cash-register"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Vendatray.tsx,"(?<=content="").*(?="")","          icon=""money-bill-wave"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Vending.tsx,"(?<=title="").*(?="")",      scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\VotePanel.tsx,"(?<=title="").*(?="")",        <Stack fill vertical>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\VotePanel.tsx,"(?<=title="").*(?="")",    <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\VotePanel.tsx,"(?<=title="").*(?="")",    <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Wires.tsx,"(?<=content="").*(?="")",              />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessConfig.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessConfig.js,"(?<=content="").*(?="")","            icon=""check-double"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessConfig.js,"(?<=content="").*(?="")","            icon=""undo"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessConfig.js,"(?<=content="").*(?="")","                icon=""check"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessConfig.js,"(?<=content="").*(?="")","                icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AccessList.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AtmosControls.js,"(?<=content="").*(?="")","        <LabeledList.Item label=""Pressure Regulator"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AtmosControls.js,"(?<=content="").*(?="")","            icon=""sign-out-alt"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AtmosControls.js,"(?<=content="").*(?="")",              disabled={intdefault}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\AtmosControls.js,"(?<=content="").*(?="")",              disabled={extdefault}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\PortableAtmos.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\PortableAtmos.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\PortableAtmos.js,"(?<=content="").*(?="")","            icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\RecipeLookup.js,"(?<=content="").*(?="")","            <Box position=""relative"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\RecipeLookup.js,"(?<=content="").*(?="")","              <Box position=""relative"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\RecipeLookup.js,"(?<=content="").*(?="")","            <LabeledList.Item label=""Minimum purity"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\RecipeLookup.js,"(?<=content="").*(?="")","          <LabeledList.Item label=""Optimal rate"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\RecipeLookup.js,"(?<=content="").*(?="")","              <Box position=""relative"">{recipe.thermoUpper + 'u/s'}</Box>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""toggle-off"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""space-shuttle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""flag"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""bell-o"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""exclamation-triangle"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","          icon=""biohazard"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=title="").*(?="")","          onClick={() => act('setStatusPicture', { picture: 'biohazard' })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\common\StatusDisplayControls.tsx,"(?<=content="").*(?="")","              onClick={() => act('setStatusMessage', { upperText, lowerText })}"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")",            disabled={!isInjectorReady}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")","        <LabeledList.Item label=""Identity"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")","        <LabeledList.Item label=""Features"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")","        <LabeledList.Item label=""Full Makeup"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")",            disabled={!hasDisk || diskReadOnly}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")",                disabled={!hasDisk || !diskHasMakeup}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=content="").*(?="")",              disabled={!isViableSubject}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=title="").*(?="")",    elements.push(element);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=title="").*(?="")","  const { stdDevAcc, stdDevStr } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleEnzymes.js,"(?<=title="").*(?="")","  const { pulseStrength, pulseDuration } = data;"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleSequencer.js,"(?<=title="").*(?="")",          <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleSequencer.js,"(?<=title="").*(?="")",        <Stack.Item grow={1} basis={0}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleSequencer.js,"(?<=title="").*(?="")",        )) || (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleSequencer.js,"(?<=content="").*(?="")",                  <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleSequencer.js,"(?<=content="").*(?="")","                  color=""purple"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=title="").*(?="")",  const advInjectors = data.storage.injector ?? [];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",                disabled={!isInjectorReady}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")","          minWidth=""200px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",            selected={storageConsSubMode === STORAGE_CONS_SUBMODE_MUTATIONS}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",            selected={storageConsSubMode === STORAGE_CONS_SUBMODE_CHROMOSOMES}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",            selected={storageDiskSubMode === STORAGE_CONS_SUBMODE_MUTATIONS}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",            selected={storageDiskSubMode === STORAGE_DISK_SUBMODE_ENZYMES}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",      <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")",      />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=content="").*(?="")","              STORAGE_DISK_SUBMODE_MUTATIONS ?? storageDiskSubMode,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=title="").*(?="")",      <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaConsoleStorage.js,"(?<=title="").*(?="")",                {mutation.Name}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaScanner.js,"(?<=content="").*(?="")",      <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaScanner.js,"(?<=content="").*(?="")",        <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\DnaScanner.js,"(?<=title="").*(?="")","export const DnaScanner = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\GeneticMakeupInfo.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=content="").*(?="")",          <Button
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=content="").*(?="")",          />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=content="").*(?="")","                consoleMode: CONSOLE_MODE_SEQUENCER,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=content="").*(?="")","                consoleMode: CONSOLE_MODE_ENZYMES,"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\index.js,"(?<=content="").*(?="")","              icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\MutationInfo.js,"(?<=content="").*(?="")",                  disabled={savedToConsole || !mutation.Active}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\MutationInfo.js,"(?<=content="").*(?="")",                    !mutation.Active
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\DnaConsole\MutationInfo.js,"(?<=content="").*(?="")",              (!!mutation.Scrambled && mutation.Source === 'occupant')) && (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Fabrication\DesignBrowser.tsx,"(?<=title="").*(?="")",            <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Controls.js,"(?<=title="").*(?="")","export const HypertorusSecondaryControls = (props, context) => {"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Controls.js,"(?<=title="").*(?="")",  const filterTypes = data.filter_types || [];
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Gases.js,"(?<=title="").*(?="")",    <>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Gases.js,"(?<=title="").*(?="")",      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\index.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\index.js,"(?<=title="").*(?="")",      </Stack>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\index.js,"(?<=title="").*(?="")",    <Window
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Parameters.js,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Hypertorus\Temperatures.js,"(?<=title="").*(?="")","  const show_max = label_legible(next_power_level_temperature, maxTemperature);"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IntegratedCircuit\ComponentMenu.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IntegratedCircuit\ComponentMenu.js,"(?<=content="").*(?="")",                    mb={1}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\IntegratedCircuit\VariableMenu.js,"(?<=title="").*(?="")",      <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\CallModal.js,"(?<=title="").*(?="")",        scrollableHorizontal
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\ChunkViewModal.js,"(?<=title="").*(?="")",        scrollableHorizontal
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\index.js,"(?<=title="").*(?="")","                  pb=""16px"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\StateSelectModal.js,"(?<=title="").*(?="")",        fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\TaskManager.js,"(?<=title="").*(?="")","      <Stack.Item grow=""1"" shrink=""1"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\LuaEditor\TaskManager.js,"(?<=title="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MaintMode.tsx,"(?<=content="").*(?="")",              bold
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MaintMode.tsx,"(?<=content="").*(?="")",          </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MaintMode.tsx,"(?<=content="").*(?="")",                bold
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MaintMode.tsx,"(?<=content="").*(?="")","              <Box className=""Mecha__displayBox"">{code.name}</Box>"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MechStatPane.tsx,"(?<=title="").*(?="")",      </Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MechStatPane.tsx,"(?<=title="").*(?="")",        </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MechStatPane.tsx,"(?<=title="").*(?="")",            <EnviromentalAir />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\MechStatPane.tsx,"(?<=title="").*(?="")",          <DNABody />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\OperatorMode.tsx,"(?<=title="").*(?="")",          <Stack.Item>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\OperatorMode.tsx,"(?<=title="").*(?="")",              <PowerModulesPane />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\OperatorMode.tsx,"(?<=title="").*(?="")",            />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\OperatorMode.tsx,"(?<=title="").*(?="")",              {right_arm_weapon ? <ArmPane weapon={right_arm_weapon} /> : null}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Mecha\OperatorMode.tsx,"(?<=title="").*(?="")",              <UtilityModulesPane />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\Available.tsx,"(?<=title="").*(?="")",      scrollable
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\Directives.tsx,"(?<=title="").*(?="")",      <Stack.Item grow={2}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\Directives.tsx,"(?<=title="").*(?="")",      <Stack.Item grow>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\index.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\Installed.tsx,"(?<=title="").*(?="")",    ''
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PaiInterface\System.tsx,"(?<=title="").*(?="")",      fill
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Beaker.tsx,"(?<=title="").*(?="")",    <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Beaker.tsx,"(?<=content="").*(?="")","            icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Beaker.tsx,"(?<=content="").*(?="")","            icon=""trash"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Beaker.tsx,"(?<=content="").*(?="")","            icon=""eject"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Specimen.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Specimen.tsx,"(?<=content="").*(?="")","          icon=""flask"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=title="").*(?="")",  let convertedThresholds = Object.entries<Threshold>(thresholds);
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=title="").*(?="")",  } = props;
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=content="").*(?="")",      <LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=content="").*(?="")",        </Tooltip>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=content="").*(?="")",            {resistance}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=content="").*(?="")",            {stage_speed}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Symptom.tsx,"(?<=content="").*(?="")",            {stealth}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Virus.tsx,"(?<=title="").*(?="")","    virus: { resistance, stage_speed, stealth, transmission },"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Virus.tsx,"(?<=content="").*(?="")",      <LabeledList>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Virus.tsx,"(?<=content="").*(?="")",        </Tooltip>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Virus.tsx,"(?<=content="").*(?="")",            {stage_speed}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Pandemic\Virus.tsx,"(?<=content="").*(?="")",            {stealth}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\CharacterPreferenceWindow.tsx,"(?<=title="").*(?="")",  }
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\GamePreferenceWindow.tsx,"(?<=title="").*(?="")",  return (
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\KeybindingsPage.tsx,"(?<=content="").*(?="")",            <Button.Confirm
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LanguagesMenu.tsx,"(?<=title="").*(?="")","      <Stack.Item minWidth=""33%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LanguagesMenu.tsx,"(?<=title="").*(?="")",          Language is worth 1 point.
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LimbsPage.tsx,"(?<=title="").*(?="")","      <Stack.Item minWidth=""33%"" minHeight=""100%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LimbsPage.tsx,"(?<=title="").*(?="")","      <Stack.Item minWidth=""33%"">"
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LimbsPage.tsx,"(?<=title="").*(?="")",            }}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LimbsPage.tsx,"(?<=title="").*(?="")",            {balance}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\LimbsPage.tsx,"(?<=title="").*(?="")",              <OrganPage key={val.slot} organ={val} data={data} />
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\names.tsx,"(?<=title="").*(?="")",                }
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\SpeciesPage.tsx,"(?<=content="").*(?="")",          onClick={props.handleClose}
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\SpeciesPage.tsx,"(?<=title="").*(?="")",                      }>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\SpeciesPage.tsx,"(?<=title="").*(?="")",                      </Section>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\PreferencesMenu\SpeciesPage.tsx,"(?<=title="").*(?="")",              <Box mt={1}>
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Uplink\index.tsx,"(?<=content="").*(?="")","                        icon=""times"""
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Uplink\ObjectiveMenu.tsx,"(?<=title="").*(?="")",            <Section
+D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces\Uplink\ObjectiveMenu.tsx,"(?<=content="").*(?="")",                          <Button
