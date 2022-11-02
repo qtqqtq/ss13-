@@ -47,6 +47,24 @@ file_info=[
         'encoding':'UTF-8',
         'id':'True'
     }
+    ,
+    {
+        'folder_path':'D:\skyrat\Skyrat-tg-master\code\game\machinery',
+        're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
+        'file_name':'machinery_text.csv',
+        'filetree_name':'machinery_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'True'
+    }
+    ,
+{
+        'folder_path':r'D:\skyrat\Skyrat-tg-master\code\game\turfs',
+        're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
+        'file_name':'turfs_text.csv',
+        'filetree_name':'turfs_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'True'
+    }
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]

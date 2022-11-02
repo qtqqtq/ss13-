@@ -1,0 +1,331 @@
+文件路径,正则表达式
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=name = "").*(?="")",/turf/baseturf_skipover
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=desc = "").*(?="")",/turf/baseturf_skipover
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=name = "").*(?="")",/turf/baseturf_skipover/shuttle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=desc = "").*(?="")",/turf/baseturf_skipover/shuttle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=name = "").*(?="")",/turf/baseturf_bottom
+D:\skyrat\Skyrat-tg-master\code\game\turfs\baseturf_skipover.dm,"(?<=desc = "").*(?="")",/turf/baseturf_bottom
+D:\skyrat\Skyrat-tg-master\code\game\turfs\turf.dm,"(?<=name = "").*(?="")","/turf/proc/add_vomit_floor(mob/living/M, toxvomit = NONE, purge_ratio = 0.1)"
+D:\skyrat\Skyrat-tg-master\code\game\turfs\turf.dm,"(?<=desc = "").*(?="")","/turf/proc/add_vomit_floor(mob/living/M, toxvomit = NONE, purge_ratio = 0.1)"
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral //wall piece
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/random/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/random/labormineral/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/ash_rock //wall piece
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/snowmountain
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/snowmountain/cavern
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/asteroid
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/random/stationside/asteroid
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/random/stationside/asteroid/porus
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=desc = "").*(?="")",/turf/closed/mineral/random/stationside/asteroid/porus
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/asteroid/porous
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=desc = "").*(?="")",/turf/closed/mineral/asteroid/porous
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/gibtonite/proc/explosive_reaction(mob/user = null)
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=desc = "").*(?="")",/turf/closed/mineral/gibtonite/proc/explosive_reaction(mob/user = null)
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=desc = "").*(?="")",/turf/closed/mineral/gibtonite/proc/defuse()
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=name = "").*(?="")",/turf/closed/mineral/strong
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\minerals.dm,"(?<=desc = "").*(?="")",/turf/closed/mineral/strong
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/oldshuttle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/weeb
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/weeb
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/splashscreen
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/riveted/plastinum
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/riveted/plastinum
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/alien
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/alien
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/fakeglass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/opsglass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/fakedoor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/rock/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/rock/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/rock/snow/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/rock/snow/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/paper
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/paper
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/necropolis
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/necropolis
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/iron
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/iron
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/riveted/boss
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/riveted/boss
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=name = "").*(?="")",/turf/closed/indestructible/riveted/hierophant
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\_closed.dm,"(?<=desc = "").*(?="")",/turf/closed/indestructible/riveted/hierophant
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\material_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/material
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\material_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/material
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\material_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/material/mat_update_desc(mat)
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/gold
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/gold
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/silver
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/silver
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/diamond
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/diamond
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/bananium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/bananium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/uranium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/uranium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/wood
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/wood
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/wood/nonmetal
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/bamboo
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/bamboo
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/iron
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/iron
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/abductor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/abductor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/titanium //has to use this path due to how building walls works
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/titanium //has to use this path due to how building walls works
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/titanium/survival
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/titanium/survival
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/plastitanium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\mineral_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/plastitanium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/cult/artificer
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/cult/artificer
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/vault
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/vault/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/vault/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/vault/alien
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/vault/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/mineral/bronze
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/mineral/bronze
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/rock/porous
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\misc_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/rock/porous
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\reinf_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/r_wall
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\reinf_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/r_wall
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\reinf_walls.dm,"(?<=name = "").*(?="")",/turf/closed/wall/r_wall/syndicate
+D:\skyrat\Skyrat-tg-master\code\game\turfs\closed\wall\reinf_walls.dm,"(?<=desc = "").*(?="")",/turf/closed/wall/r_wall/syndicate
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ashplanet.dm,"(?<=name = "").*(?="")",/turf/open/misc/ashplanet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ashplanet.dm,"(?<=desc = "").*(?="")",/turf/open/misc/ashplanet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ashplanet.dm,"(?<=name = "").*(?="")",/turf/open/misc/ashplanet/rocky
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ashplanet.dm,"(?<=name = "").*(?="")",/turf/open/misc/ashplanet/wateryrock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=name = "").*(?="")",/turf/open/misc/asteroid //floor piece
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=desc = "").*(?="")",/turf/open/misc/asteroid //floor piece
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=name = "").*(?="")",/turf/open/misc/asteroid/basalt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=name = "").*(?="")",/turf/open/misc/asteroid/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=desc = "").*(?="")",/turf/open/misc/asteroid/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=name = "").*(?="")",/turf/open/misc/asteroid/snow/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\asteroid.dm,"(?<=desc = "").*(?="")",/turf/open/misc/asteroid/snow/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\basalt.dm,"(?<=name = "").*(?="")",/turf/open/misc/basalt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\basalt.dm,"(?<=desc = "").*(?="")",/turf/open/misc/basalt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\chasm.dm,"(?<=name = "").*(?="")",/turf/open/chasm
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\chasm.dm,"(?<=desc = "").*(?="")",/turf/open/chasm
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor.dm,"(?<=name = "").*(?="")",/turf/open/floor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/material
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\grass.dm,"(?<=name = "").*(?="")",/turf/open/misc/grass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\grass.dm,"(?<=desc = "").*(?="")",/turf/open/misc/grass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ice.dm,"(?<=name = "").*(?="")",/turf/open/misc/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ice.dm,"(?<=desc = "").*(?="")",/turf/open/misc/ice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ice.dm,"(?<=desc = "").*(?="")",/turf/open/misc/ice/temperate
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\ice.dm,"(?<=desc = "").*(?="")",/turf/open/misc/ice/coldroom
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\lava.dm,"(?<=name = "").*(?="")",/turf/open/lava
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\lava.dm,"(?<=name = "").*(?="")",/turf/open/lava/smooth
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\misc.dm,"(?<=name = "").*(?="")",/turf/open/misc
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\misc.dm,"(?<=desc = "").*(?="")",/turf/open/misc
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\openspace.dm,"(?<=name = "").*(?="")",/turf/open/openspace
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\openspace.dm,"(?<=desc = "").*(?="")",/turf/open/openspace
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\openspace.dm,"(?<=name = "").*(?="")",/turf/open/openspace/icemoon
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=name = "").*(?="")",/turf/open/misc/dirt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=desc = "").*(?="")",/turf/open/misc/dirt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=name = "").*(?="")",/turf/open/misc/dirt/jungle/wasteland //Like a more fun version of living in Arizona.
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=desc = "").*(?="")",/turf/open/misc/dirt/jungle/wasteland //Like a more fun version of living in Arizona.
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=name = "").*(?="")",/turf/open/misc/grass/jungle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\planet.dm,"(?<=desc = "").*(?="")",/turf/open/misc/grass/jungle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\river.dm,"(?<=name = "").*(?="")",/obj/effect/landmark/river_waypoint
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/beach
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=desc = "").*(?="")",/turf/open/misc/beach
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/beach/sand
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=desc = "").*(?="")",/turf/open/misc/beach/sand
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/beach/coastline_t
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=desc = "").*(?="")",/turf/open/misc/beach/coastline_t
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/beach/coastline_b //need to make this water subtype.
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/sandy_dirt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=desc = "").*(?="")",/turf/open/misc/sandy_dirt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=name = "").*(?="")",/turf/open/misc/ironsand
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\sand.dm,"(?<=desc = "").*(?="")",/turf/open/misc/ironsand
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\snow.dm,"(?<=name = "").*(?="")",/turf/open/misc/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\snow.dm,"(?<=desc = "").*(?="")",/turf/open/misc/snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\water.dm,"(?<=desc = "").*(?="")",/turf/open/water
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\water.dm,"(?<=desc = "").*(?="")",/turf/open/water/beach
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible/honk
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible/necropolis
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=desc = "").*(?="")",/turf/open/indestructible/necropolis
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible/boss //you put stone tiles on this and use it as a base
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible/paper
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=desc = "").*(?="")",/turf/open/indestructible/paper
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\_open.dm,"(?<=name = "").*(?="")",/turf/open/indestructible/binary
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")","/turf/open/floor/catwalk_floor	//the base type, meant to look like a maintenance panel"
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=desc = "").*(?="")","/turf/open/floor/catwalk_floor	//the base type, meant to look like a maintenance panel"
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/iron
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/iron_white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/iron_dark
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/flat_white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/titanium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\catwalk_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/catwalk_floor/iron_smooth //the original green type
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/wood
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/bamboo
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/grass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/grass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/grass/fairy //like grass but fae-er
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/grass/fairy //like grass but fae-er
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/fake_snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/fake_snow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/fakebasalt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/fakebasalt
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/executive
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/stellar
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/donk
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/emissive_test
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/emissive_test
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/black
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/black
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/red
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/red
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/orange
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/orange
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/yellow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/yellow
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/lime
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/lime
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/green
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/green
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/teal
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/teal
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/cyan
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/cyan
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/blue
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/blue
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/purple
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/purple
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/violet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/violet
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/carpet/neon/simple/pink
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/carpet/neon/simple/pink
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/fakepit
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/fakeice
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\fancy_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/fakeice/slippery
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=name = "").*(?="")",/turf/open/floor/glass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=desc = "").*(?="")",/turf/open/floor/glass
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=name = "").*(?="")",/turf/open/floor/glass/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=desc = "").*(?="")",/turf/open/floor/glass/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=name = "").*(?="")",/turf/open/floor/glass/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=desc = "").*(?="")",/turf/open/floor/glass/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=name = "").*(?="")",/turf/open/floor/glass/reinforced/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\glass.dm,"(?<=desc = "").*(?="")",/turf/open/floor/glass/reinforced/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\hull.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/hull
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\hull.dm,"(?<=desc = "").*(?="")",/turf/open/floor/engine/hull
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\hull.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/hull/ceiling
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\hull.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/hull/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\hull.dm,"(?<=desc = "").*(?="")",/turf/open/floor/engine/hull/reinforced
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\iron_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/iron/kitchen_coldroom
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\iron_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/iron/goonplaque
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\iron_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/iron/goonplaque
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\iron_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/iron/bluespace
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\iron_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/iron/sepia
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\light_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/light
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\light_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/light
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\light_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/light/colour_cycle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\light_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/light/colour_cycle
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/gold
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/silver
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/titanium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/titanium/tiled
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/plastitanium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/plastitanium/red/brig
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/bananium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/diamond
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/uranium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\mineral_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/mineral/abductor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/circuit/telecomms/mainframe
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/circuit/telecomms/server
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/circuit/green/telecomms/mainframe
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/pod
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/noslip
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/bluespace
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/sepia
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/bronze
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/bronze
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/white
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/black
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/plastic
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/plastic
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/eighties
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/eighties
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/eighties/red
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/eighties/red
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/stone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/vault
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/vault
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/vault/rock
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/vault/alien
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/vault/sandstone
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\misc_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating/foam
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating.dm,"(?<=desc = "").*(?="")",/turf/open/floor/plating/foam
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/engine
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/n2o
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/co2
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/plasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/o2
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/n2
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/bz
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/freon
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/halon
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/healium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/h2
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/hypernoblium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/miasma
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/nitrium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/pluoxium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/proto_nitrate
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/tritium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/h2o
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/zauker
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/helium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "".improper ).*(?="")",/turf/open/floor/engine/antinoblium
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/air
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=desc = "").*(?="")",/turf/open/floor/engine/cult
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\reinf_floor.dm,"(?<=name = "").*(?="")",/turf/open/floor/engine/vacuum
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating\misc_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating/abductor
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating\misc_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating/abductor2
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating\misc_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating/snowed
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating\misc_plating.dm,"(?<=desc = "").*(?="")",/turf/open/floor/plating/snowed
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\floor\plating\misc_plating.dm,"(?<=name = "").*(?="")",/turf/open/floor/plating/elevatorshaft
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\space\space.dm,"(?<=name = "".proper ).*(?="")",/turf/open/space
+D:\skyrat\Skyrat-tg-master\code\game\turfs\open\space\transit.dm,"(?<=name = "".proper ).*(?="")",/turf/open/space/transit
