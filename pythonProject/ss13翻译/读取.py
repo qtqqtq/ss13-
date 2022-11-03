@@ -45,7 +45,8 @@ file_info=[
         'file_name':'modules_text.csv',
         'filetree_name':'modules_file_tree.csv',
         'encoding':'UTF-8',
-        'id':'True'
+        'id':'True',
+        'ban_filetype':'png'
     }
     ,
     {
@@ -57,13 +58,23 @@ file_info=[
         'id':'True'
     }
     ,
-{
+    {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\code\game\turfs',
         're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name':'turfs_text.csv',
         'filetree_name':'turfs_file_tree.csv',
         'encoding':'UTF-8',
         'id':'True'
+    }
+    ,
+    {
+        'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
+        're_list': ['.*'],
+        'file_name':'string_txt_text.csv',
+        'filetree_name':'string_txt_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'False',
+        'ban_filetype':['json','toml']
     }
 ]
 
@@ -100,17 +111,17 @@ def search_file(file_path,re_list,id_tf,encoding):
     except UnicodeDecodeError:
         print('读取'+file_path+'时出现编码错误')
 
-def search_folder(folder_path,re_list,id_tf,encoding):
+def search_folder(folder_path,re_list,id_tf,encoding,ban_filetype):
     result={}
     for root,dirs,files in os.walk(folder_path):
         for file_name in files:
-            if [list(file_name)[-3],list(file_name)[-2],list(file_name)[-1]]!=list('png'):
+            if re.search(".([a-z|A-Z]*?)$",file_name).group(1) not in ban_filetype:
                 result.update({root+'\\'+file_name:search_file(root+'\\'+file_name,re_list,id_tf,encoding)})
     return result
 
 #f_info[匹配内容，正则表达式，匹配物品]
 def write_file(file_path,file_tree,id_tf,encoding):
-    global count
+    global count,count_id
     try:
         f = open(file_path, 'r', encoding=encoding)
     except FileNotFoundError:
@@ -126,6 +137,7 @@ def write_file(file_path,file_tree,id_tf,encoding):
     for i in range(len(f_info)):
         #匹配了一个新物品的id，开始写入上一物品
         if (id!=f_info[i][2] and id!=None):
+            count_id += 1
             text_iter=iter(text_list)
             text,r_e=next(text_iter)
             switch=False
@@ -148,7 +160,7 @@ def write_file(file_path,file_tree,id_tf,encoding):
                         try:
                             text, r_e = next(text_iter)
                         except StopIteration:
-                            pass
+                            break
                 change_f[line]=''.join(old_file_line)
             text_list=[]
         id = f_info[i][2]
@@ -159,8 +171,10 @@ def write_file(file_path,file_tree,id_tf,encoding):
         fw.write(line)
     fw.close()
 
-def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding):
-    file_tree = search_folder(folder_path,re_list,id_tf,encoding)
+def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding='UTF-8',ban_filetype=None):
+    if ban_filetype == None:
+        ban_filetype=[]
+    file_tree = search_folder(folder_path,re_list,id_tf,encoding,ban_filetype)
     with open(filetree_name, 'w', newline='', encoding='UTF-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['文件路径', '正则表达式'])
@@ -175,7 +189,7 @@ def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding):
             for line in file_tree[file]:
                 writer.writerow([next(index), line[0], ''])
 
-def write_tree(file_name,filetree_name,id_tf,encoding):
+def write_tree(file_name,filetree_name,id_tf,encoding='UTF-8'):
     with open(filetree_name, 'r', newline='', encoding='UTF-8') as csvfile:
         tree_reader = csv.reader(csvfile)
         with open(file_name, 'r', newline='', encoding='UTF-8') as text:
@@ -208,10 +222,14 @@ if __name__=='__main__':
         if enter=='r':
             for info in file_info:
                 count = 0
-                read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'])
+                if info.get('ban_filetype')==None:
+                    read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'])
+                else:
+                    read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'],info['ban_filetype'])
                 print(info['file_name'] + '读取出' + str(count) + '个词条')
         elif enter=='w':
             for info in file_info:
-                count=0
+                count = 0
+                count_id = 0
                 write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
-                print(info['file_name']+'已写入'+str(count)+'个词条')
+                print(info['file_name']+'已写入'+str(count)+'个词条 '+str(count_id)+'个id')
