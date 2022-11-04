@@ -4,6 +4,25 @@ import csv
 
 file_info=[
     {
+        'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
+        're_list': ['.*'],
+        'file_name':'string_txt_text.csv',
+        'filetree_name':'string_txt_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'False',
+        'ban_filetype':['json','toml']
+    }
+    ,
+    {
+        'folder_path':r'D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces',
+        're_list': ['(?<=title=").*(?=")','(?<=content=").*(?=")'],
+        'file_name':'interface_text.csv',
+        'filetree_name':'interface_file_tree.csv',
+        'encoding':'UTF-8',
+        'id':'False'
+    }
+    ,
+    {
         'folder_path':'D:\skyrat\Skyrat-tg-master\code\game\objects\items',
         're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name':'text.csv',
@@ -29,15 +48,8 @@ file_info=[
         'encoding':'UTF-8',
         'id':'True'
     }
-    ,
-    {
-        'folder_path':r'D:\skyrat\Skyrat-tg-master\tgui\packages\tgui\interfaces',
-        're_list': ['(?<=title=").*(?=")','(?<=content=").*(?=")'],
-        'file_name':'interface_text.csv',
-        'filetree_name':'interface_file_tree.csv',
-        'encoding':'UTF-8',
-        'id':'False'
-    }
+
+
     ,
     {
         'folder_path':'D:\skyrat\Skyrat-tg-master\code\modules',
@@ -66,17 +78,6 @@ file_info=[
         'encoding':'UTF-8',
         'id':'True'
     }
-    #,
-    #{
-     #   'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
-      #  're_list': ['.*'],
-       # 'file_name':'string_txt_text.csv',
-        #'filetree_name':'string_txt_file_tree.csv',
-        #'encoding':'UTF-8',
-        #'id':'False',
-        #'ban_filetype':['json','toml']
-    #}
-
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
@@ -122,7 +123,7 @@ def search_folder(folder_path,re_list,id_tf,encoding,ban_filetype):
 
 #f_info[匹配内容，正则表达式，匹配物品]
 def write_file(file_path,file_tree,id_tf,encoding):
-    global count,count_id
+    global count
     try:
         f = open(file_path, 'r', encoding=encoding)
     except FileNotFoundError:
@@ -132,43 +133,34 @@ def write_file(file_path,file_tree,id_tf,encoding):
     change_f=f.readlines()
     f_info=file_tree[file_path]
     #增加一次迭代，防止迭代溢出
-    f_info.append([None,None,None])
-    id=None
-    text_list=[]
+    ban_line_list=[]
+    new_f=change_f.copy()
     for i in range(len(f_info)):
-        #匹配了一个新物品的id，开始写入上一物品
-        if (id!=f_info[i][2] and id!=None):
-            count_id += 1
-            text_iter=iter(text_list)
-            text,r_e=next(text_iter)
-            switch=False
-            for line in range(len(change_f)):
-                old_file_line=list(change_f[line])
-                if re.match('.*', change_f[line]).group() == id:
-                    switch=True
-                #按id写入
-                elif change_f[line][0]=='/' and id_tf=='True':
-                    switch=False
-                #找到了写入的位置，开始按顺序写入正则表达式对应内容
-                if switch:
-                    match=re.search(r_e,change_f[line])
-                    if match!=None:
-                        old_file_line=old_file_line[:match.span()[0]]+list(text)+old_file_line[match.span()[1]:]
-                        count+=1
-                        #不按id写入，按上一文本写入，写入完后就终止
-                        if id_tf=='False':
-                            switch=False
-                        try:
-                            text, r_e = next(text_iter)
-                        except StopIteration:
-                            pass
-                change_f[line]=''.join(old_file_line)
-            text_list=[]
-        id = f_info[i][2]
-        text_list.append((f_info[i][0], f_info[i][1]))
+        #对于一个物品id，写入
+        switch=False
+        for line,text in enumerate(change_f):
+            old_file_line = list(text)
+            if f_info[i][2]=='':
+                switch=True
+            if re.match('.*', text).group()==f_info[i][2]:
+                switch=True
+                continue
+            elif change_f[line][0]=='/' and id_tf=='True':
+                switch=False
+            if switch and line not in ban_line_list:
+                match = re.search(f_info[i][1],text)
+                if match != None:
+                    old_file_line = old_file_line[:match.span()[0]] + list(f_info[i][0]) + old_file_line[match.span()[1]:]
+                    ban_line_list.append(line)
+                    count+=1
+                    # 不按id写入，按上一文本写入，写入完后就终止
+                    new_f[line] = ''.join(old_file_line)
+                    break
+
+
     f.close()
     fw = open(file_path, 'w', encoding='UTF-8')
-    for line in change_f:
+    for line in new_f:
         fw.write(line)
     fw.close()
 
@@ -233,4 +225,4 @@ if __name__=='__main__':
                 count = 0
                 count_id = 0
                 write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
-                print(info['file_name']+'已写入'+str(count)+'个词条 '+str(count_id)+'个id')
+                print(info['file_name']+'已写入'+str(count)+'个词条 ')
