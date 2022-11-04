@@ -66,16 +66,17 @@ file_info=[
         'encoding':'UTF-8',
         'id':'True'
     }
-    ,
-    {
-        'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
-        're_list': ['.*'],
-        'file_name':'string_txt_text.csv',
-        'filetree_name':'string_txt_file_tree.csv',
-        'encoding':'UTF-8',
-        'id':'False',
-        'ban_filetype':['json','toml']
-    }
+    #,
+    #{
+     #   'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
+      #  're_list': ['.*'],
+       # 'file_name':'string_txt_text.csv',
+        #'filetree_name':'string_txt_file_tree.csv',
+        #'encoding':'UTF-8',
+        #'id':'False',
+        #'ban_filetype':['json','toml']
+    #}
+
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
@@ -160,7 +161,7 @@ def write_file(file_path,file_tree,id_tf,encoding):
                         try:
                             text, r_e = next(text_iter)
                         except StopIteration:
-                            break
+                            pass
                 change_f[line]=''.join(old_file_line)
             text_list=[]
         id = f_info[i][2]
