@@ -1,7 +1,8 @@
 import os
-import  re as re
+import re as re
 import csv
 
+ban_list=[]
 file_info=[
     {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
@@ -58,7 +59,12 @@ file_info=[
         'filetree_name':'modules_file_tree.csv',
         'encoding':'UTF-8',
         'id':'True',
-        'ban_filetype':'png'
+        'ban_filetype':'png',
+        'ban_list':[
+            'tgui',
+            'tgui_input',
+            'tgui_panel'
+            ]
     }
     ,
     {
@@ -182,29 +188,41 @@ def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding='UTF-
             for line in file_tree[file]:
                 writer.writerow([next(index), line[0], ''])
 
-def write_tree(file_name,filetree_name,id_tf,encoding='UTF-8'):
+def write_tree(file_name,filetree_name,id_tf,encoding='UTF-8',ban_list=None):
     with open(filetree_name, 'r', newline='', encoding='UTF-8') as csvfile:
         tree_reader = csv.reader(csvfile)
         with open(file_name, 'r', newline='', encoding='UTF-8') as text:
             text_reader = csv.reader(text)
             new_file_tree = {}
+            if ban_list == None:
+                ban_list_real = []
+            else:
+                ban_list_real=ban_list
             # i的结构((文件路径，正则表达式，物品id)，(索引，文本内容）)
             for i in zip(tree_reader, text_reader):
-                if i[0][0] == '文件路径':
-                    continue
-                if len(i[1]) == 2:
-                    new_text = i[1][1]
-                elif i[1][2] == '':
-                    new_text = i[1][1]
-                else:
-                    new_text = i[1][2]
-                if i[0][0] in new_file_tree:
-                    new_file_tree[i[0][0]].append([new_text, i[0][1], i[0][2]])
-                else:
-                    new_file_tree[i[0][0]] = [[new_text, i[0][1], i[0][2]]]
+                switch=True
+                for ban_str in ban_list_real:
+                    if re.search(ban_str,i[0][0])!=None:
+                        switch = False
+                if switch:
+                    if i[0][0] == '文件路径':
+                        continue
+                    if len(i[1]) == 2:
+                        new_text = i[1][1]
+                    elif i[1][2] == '':
+                        new_text = i[1][1]
+                    else:
+                        new_text = i[1][2]
+                    if i[0][0] in new_file_tree:
+                        new_file_tree[i[0][0]].append([new_text, i[0][1], i[0][2]])
+                    else:
+                        new_file_tree[i[0][0]] = [[new_text, i[0][1], i[0][2]]]
+
 
     for file_path in new_file_tree.keys():
         write_file(file_path, new_file_tree,id_tf,encoding)
+
+
 
 #储存结构{绝对路径：【【文本内容，正则表达式】，【。。。】，，。。。。】，绝对路径：【。。。】}
 if __name__=='__main__':
@@ -224,5 +242,8 @@ if __name__=='__main__':
             for info in file_info:
                 count = 0
                 count_id = 0
-                write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
+                if info.get('ban_list') == None:
+                    write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
+                else:
+                    write_tree(info['file_name'], info['filetree_name'], info['id'], info['encoding'],info['ban_list'])
                 print(info['file_name']+'已写入'+str(count)+'个词条 ')
