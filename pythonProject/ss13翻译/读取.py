@@ -11,7 +11,10 @@ file_info=[
         'filetree_name':'string_txt_file_tree.csv',
         'encoding':'UTF-8',
         'id':'False',
-        'ban_filetype':['json','toml']
+        'ban_filetype':['json','toml'],
+        'ban_list':[
+            '1000_most_common.txt'
+        ]
     }
     ,
     {
