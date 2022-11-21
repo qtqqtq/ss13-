@@ -13,7 +13,10 @@ file_info=[
         'id':'False',
         'ban_filetype':['json','toml'],
         'ban_list':[
-            '1000_most_common.txt'
+            '1000_most_common.txt',
+            'greek_letters.txt',
+            'round_start_sounds.txt',
+            'names'
         ]
     }
     ,
