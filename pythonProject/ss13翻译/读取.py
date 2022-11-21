@@ -89,6 +89,27 @@ file_info=[
         'encoding':'UTF-8',
         'id':'True'
     }
+    ,
+    #不要尝试提取下面这两个，这两个都是用直接删文件的方法提取的
+    {
+        'folder_path': r'D:\skyrat\Skyrat-tg-master\strings',
+        're_list': ['(?<=: [).*(?=],)','(?<=").*(?=",)','(?<=").*(?="\n)'],
+        'file_name': 'string_json_text.csv',
+        'filetree_name': 'string_json_file_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'False',
+        'ban_filetype': ['txt', 'toml']
+    }
+    ,
+    {
+        'folder_path': r'D:\skyrat\Skyrat-tg-master\strings',
+        're_list': ['(?<=: [).*(?=],)', '(?<=").*(?=",)', '(?<=").*(?="\n)'],
+        'file_name': 'string_json_location.csv',
+        'filetree_name': 'string_json_location_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'False',
+        'ban_filetype': ['txt', 'toml']
+    }
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
