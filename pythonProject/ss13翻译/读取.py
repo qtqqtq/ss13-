@@ -16,7 +16,12 @@ file_info=[
             '1000_most_common.txt',
             'greek_letters.txt',
             'round_start_sounds.txt',
-            'names'
+            'names',
+            'cas_black.txt',
+            'cas_white.txt',
+            'greek_letters.txt',
+            'phonetic_alphabet.txt',
+            'round_start_sounds.txt'
         ]
     }
     ,
