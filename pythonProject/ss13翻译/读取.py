@@ -2,7 +2,6 @@ import os
 import re as re
 import csv
 
-ban_list=[]
 file_info=[
     {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
