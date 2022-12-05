@@ -31,7 +31,10 @@ file_info=[
         'file_name':'interface_text.csv',
         'filetree_name':'interface_file_tree.csv',
         'encoding':'UTF-8',
-        'id':'False'
+        'id':'False',
+        'ban_list':[
+        'ChemFilter.tsx'
+        ]
     }
     ,
     {
