@@ -3,6 +3,18 @@ import re as re
 import csv
 
 file_info=[
+    #{
+     #   'folder_path': 'D:\skyrat\Skyrat-tg-master\code\game\objects',
+     #   're_list': [
+      #              '(?<=span.*").*(?=")',
+      #              '(?<=user.visible_message.").*(?=".)'
+      #              ],
+       # 'file_name': 'chat.csv',
+        #'filetree_name': 'chat_tree.csv',
+        #'encoding': 'UTF-8',
+        #'id': 'True'
+    #}
+    #,
     {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
         're_list': ['.*'],
@@ -117,6 +129,15 @@ file_info=[
         'id': 'False',
         'ban_filetype': ['txt', 'toml']
     }
+    ,
+    {
+        'folder_path':'D:\skyrat\Skyrat-tg-master\code\datums',
+        're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
+        'file_name':'datums.csv',
+        'filetree_name':'datums_tree.csv',
+        'encoding':'UTF-8',
+        'id':'True'
+    }
 ]
 
 #返回[匹配内容，正则表达式，匹配物品]
@@ -140,7 +161,7 @@ def search_file(file_path,re_list,id_tf,encoding):
                 matchre=re.compile(r_e)
                 match=matchre.search(string)
                 if match!=None and match not in result:
-                    result.append([match.group(0),r_e,id])
+                    result.append([match.group(),r_e,id])
                     count+=1
                     break
             #传递到下一次迭代
