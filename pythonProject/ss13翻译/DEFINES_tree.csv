@@ -1,0 +1,139 @@
+文件路径,正则表达式
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""",/// Flavour defines (also names) for GLOB.ice_cream_flavours list access. Safer from mispelling than plain text.
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_VANILLA ""vanilla"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_CHOCOLATE ""chocolate"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_STRAWBERRY ""strawberry"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_BLUE ""blue"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_MOB ""mob"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""","#define ICE_CREAM_CUSTOM ""custom"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\food.dm,"#define .* ""(.*)""",#define ICE_CREAM_SCOOP_OFFSET 4
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define JOB_UNAVAILABLE_ANTAG_INCOMPAT 6
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define DEFAULT_RELIGION ""Christianity"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define DEFAULT_DEITY ""Space Jesus"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define DEFAULT_BIBLE ""Default Bible Name"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//No department
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ASSISTANT ""Assistant"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Command
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CAPTAIN ""Captain"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_HEAD_OF_PERSONNEL ""Head of Personnel"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_HEAD_OF_SECURITY ""Head of Security"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_RESEARCH_DIRECTOR ""Research Director"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CHIEF_ENGINEER ""Chief Engineer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Silicon
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_AI ""AI"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CYBORG ""Cyborg"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Security
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_WARDEN ""Warden"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_DETECTIVE ""Detective"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SECURITY_OFFICER ""Security Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SECURITY_OFFICER_MEDICAL ""Security Officer (Medical)"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SECURITY_OFFICER_ENGINEERING ""Security Officer (Engineering)"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SECURITY_OFFICER_SCIENCE ""Security Officer (Science)"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SECURITY_OFFICER_SUPPLY ""Security Officer (Cargo)"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CORRECTIONS_OFFICER ""Corrections Officer"" // SKYRAT EDIT ADDITION"
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Engineering
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_STATION_ENGINEER ""Station Engineer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ATMOSPHERIC_TECHNICIAN ""Atmospheric Technician"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Medical
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_MEDICAL_DOCTOR ""Medical Doctor"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_PARAMEDIC ""Paramedic"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CHEMIST ""Chemist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_VIROLOGIST ""Virologist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Science
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SCIENTIST ""Scientist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ROBOTICIST ""Roboticist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_GENETICIST ""Geneticist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Supply
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_QUARTERMASTER ""Quartermaster"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CARGO_TECHNICIAN ""Cargo Technician"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SHAFT_MINER ""Shaft Miner"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//Service
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_BARTENDER ""Bartender"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_BOTANIST ""Botanist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_COOK ""Cook"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_JANITOR ""Janitor"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CLOWN ""Clown"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_MIME ""Mime"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CURATOR ""Curator"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_LAWYER ""Lawyer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CHAPLAIN ""Chaplain"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_PSYCHOLOGIST ""Psychologist"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_BARBER ""Barber"" // SKYRAT EDIT ADDITION"
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//ERTs
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_DEATHSQUAD ""Death Commando"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_COMMANDER ""Emergency Response Team Commander"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_OFFICER ""Security Response Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_ENGINEER ""Engineering Response Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_MEDICAL_DOCTOR ""Medical Response Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_CHAPLAIN ""Religious Response Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_ERT_JANITOR ""Janitorial Response Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",//CentCom
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM ""Central Command"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_OFFICIAL ""CentCom Official"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_ADMIRAL ""Admiral"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_COMMANDER ""CentCom Commander"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_VIP ""VIP Guest"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_BARTENDER ""CentCom Bartender"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_CUSTODIAN ""Custodian"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_THUNDERDOME_OVERSEER ""Thunderdome Overseer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_MEDICAL_DOCTOR ""Medical Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_RESEARCH_OFFICER ""Research Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_CENTCOM_SPECIAL_OFFICER ""Special Ops Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",// SKYRAT EDIT ADDITION START
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_BLUESHIELD ""Blueshield"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",// Nanotrasen Naval Command jobs
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_ENSIGN ""Ensign"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_LIEUTENANT ""Lieutenant"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_LTCR ""Lieutenant Commander"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_COMMANDER ""Commander"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_CAPTAIN ""Captain"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_REAR_ADMIRAL ""Rear Admiral"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_NAVAL_ADMIRAL ""Admiral"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",// Off-Station
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SPACE_POLICE ""Space Police"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define JOB_SOLFED ""SolFed"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define JOB_DISPLAY_ORDER_CUSTOMS_AGENT 45 //SKYRAT EDIT ADDITION
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_SECURITY (1<<0)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_COMMAND (1<<1)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_SERVICE (1<<2)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_CARGO (1<<3)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_ENGINEERING (1<<4)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_SCIENCE (1<<5)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_MEDICAL (1<<6)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_SILICON (1<<7)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_ASSISTANT (1<<8)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_CAPTAIN (1<<9)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define DEPARTMENT_BITFLAG_CENTRAL_COMMAND (1<<10) //SKYRAT EDIT CHANGE
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""",#define JOB_CAN_BE_INTERN (1<<8)
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define FACTION_NONE ""None"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","// Variable macros used to declare who is the supervisor for a given job, announced to the player when they join as any given job."
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_CAPTAIN ""the Captain"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_CE ""the Chief Engineer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_CMO ""the Chief Medical Officer"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_HOP ""the Head of Personnel"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_HOS ""the Head of Security"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\jobs.dm,"#define .* ""(.*)""","#define SUPERVISOR_QM ""the Quartermaster"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""",/// Defines for what loadout slot a corresponding item belongs to.
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_BELT ""belt"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_EARS ""ears"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_GLASSES ""glasses"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_GLOVES ""gloves"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_HEAD ""head"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_MASK ""mask"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_NECK ""neck"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_SHOES ""shoes"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_SUIT ""suit"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_UNIFORM ""under"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_ACCESSORY ""accessory"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_INHAND ""inhand_items"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_ITEM_MISC ""pocket_items"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""",
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define INFO_GREYSCALE ""greyscale"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","/// Defines for extra info blurbs, for loadout items."
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define TOOLTIP_NO_ARMOR ""ARMORLESS - This item has no armor and is entirely cosmetic."""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define TOOLTIP_NO_DAMAGE ""CEREMONIAL - This item has very low force and is cosmetic."""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define TOOLTIP_RANDOM_COLOR ""RANDOM COLOR -This item has a random color and will change every round."""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define TOOLTIP_GREYSCALE ""GREYSCALED - This item can be customized via the greyscale modification UI."""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define TOOLTIP_RENAMABLE ""RENAMABLE - This item can be given a custom name."""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_OVERRIDE_JOB ""Delete job items"""
+D:\skyrat\Skyrat-tg-master\code\__DEFINES\~skyrat_defines\loadouts.dm,"#define .* ""(.*)""","#define LOADOUT_OVERRIDE_BACKPACK ""Move job to backpack"""

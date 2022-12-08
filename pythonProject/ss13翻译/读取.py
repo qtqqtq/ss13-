@@ -4,6 +4,15 @@ import csv
 
 file_info=[
     {
+        'folder_path': 'D:\skyrat\Skyrat-tg-master\code\__DEFINES',
+        're_list': ['#define .* "(.*)"'],
+        'file_name': 'DEFINES_text.csv',
+        'filetree_name': 'DEFINES_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'False',
+    }
+    ,
+    {
         'folder_path': 'D:\skyrat\Skyrat-tg-master\code\modules',
         're_list': [
                     '(?<=<span class=.alert.>).*(?=</span>)',
@@ -224,7 +233,10 @@ def search_file(file_path,re_list,id_tf,encoding):
                 matchre=re.compile(r_e)
                 match=matchre.search(string)
                 if match!=None and match not in result:
-                    result.append([match.group(),r_e,id])
+                    try:
+                        result.append([match.group(1),r_e,id])
+                    except IndexError:
+                        result.append([match.group(),r_e,id])
                     count+=1
                     break
             #传递到下一次迭代
