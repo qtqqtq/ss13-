@@ -3,18 +3,81 @@ import re as re
 import csv
 
 file_info=[
-    #{
-     #   'folder_path': 'D:\skyrat\Skyrat-tg-master\code\game\objects',
-     #   're_list': [
-      #              '(?<=span.*").*(?=")',
-      #              '(?<=user.visible_message.").*(?=".)'
-      #              ],
-       # 'file_name': 'chat.csv',
-        #'filetree_name': 'chat_tree.csv',
-        #'encoding': 'UTF-8',
-        #'id': 'True'
-    #}
-    #,
+    {
+        'folder_path': 'D:\skyrat\Skyrat-tg-master\code\modules',
+        're_list': [
+                    '(?<=<span class=.alert.>).*(?=</span>)',
+                    '(?<=<span class=.warning.>).*(?=</span>)',
+                    '(?<=<span class=.danger.>).*(?=</span>)',
+                    '(?<=<span class=.notice.>).*(?=</span>)',
+                    '(?<=span_info.").*(?=".)',
+                    '(?<=span_notice.").*(?=".)',
+                    '(?<=span_warning.").*(?=".)',
+                    '(?<=span_suicide.").*(?=")',
+                    '(?<=span_hear.").*(?=")',
+                    '(?<=span_danger.").*(?=")',
+                    '(?<=span_boldnotice.").*(?=")',
+                    '(?<=span_alert.").*(?=")',
+                    '(?<=span_userdanger.").*(?=")',
+                    '(?<=user.visible_message.").*(?=".)'
+                    ],
+        'ban_filetype':'png',
+        'file_name': 'modules_A-L_chat.csv',
+        'filetree_name': 'modules_chat_A-L_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'True'
+    }
+    ,
+    {
+        'folder_path': 'D:\skyrat\Skyrat-tg-master\code\modules',
+        're_list': [
+            '(?<=<span class=.alert.>).*(?=</span>)',
+            '(?<=<span class=.warning.>).*(?=</span>)',
+            '(?<=<span class=.danger.>).*(?=</span>)',
+            '(?<=<span class=.notice.>).*(?=</span>)',
+            '(?<=span_info.").*(?=".)',
+            '(?<=span_notice.").*(?=".)',
+            '(?<=span_warning.").*(?=".)',
+            '(?<=span_suicide.").*(?=")',
+            '(?<=span_hear.").*(?=")',
+            '(?<=span_danger.").*(?=")',
+            '(?<=span_boldnotice.").*(?=")',
+            '(?<=span_alert.").*(?=")',
+            '(?<=span_userdanger.").*(?=")',
+            '(?<=user.visible_message.").*(?=".)'
+        ],
+        'ban_filetype': 'png',
+        'file_name': 'modules_M-Z_chat.csv',
+        'filetree_name': 'modules_chat_M-Z_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'True'
+    }
+    ,
+    {
+        'folder_path': 'D:\skyrat\Skyrat-tg-master\code\game',
+        're_list': [
+            '(?<=<span class=.alert.>).*(?=</span>)',
+            '(?<=<span class=.warning.>).*(?=</span>)',
+            '(?<=<span class=.danger.>).*(?=</span>)',
+            '(?<=<span class=.notice.>).*(?=</span>)',
+            '(?<=span_info.").*(?=".)',
+            '(?<=span_notice.").*(?=".)',
+            '(?<=span_warning.").*(?=".)',
+            '(?<=span_suicide.").*(?=")',
+            '(?<=span_hear.").*(?=")',
+            '(?<=span_danger.").*(?=")',
+            '(?<=span_boldnotice.").*(?=")',
+            '(?<=span_alert.").*(?=")',
+            '(?<=span_userdanger.").*(?=")',
+            '(?<=user.visible_message.").*(?=".)'
+        ],
+        'ban_filetype': 'png',
+        'file_name': 'game_chat.csv',
+        'filetree_name': 'game_chat_tree.csv',
+        'encoding': 'UTF-8',
+        'id': 'True'
+    }
+    ,
     {
         'folder_path':r'D:\skyrat\Skyrat-tg-master\strings',
         're_list': ['.*'],
