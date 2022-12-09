@@ -3,6 +3,9 @@ import re as re
 import csv
 import regex
 
+#使用了分组的汉化文件
+group_file=['DEFINES_text.csv']
+
 file_info=[
     {
         'folder_path': 'D:\skyrat\Skyrat-tg-master\code\__DEFINES',
@@ -11,6 +14,8 @@ file_info=[
         'filetree_name': 'DEFINES_tree.csv',
         'encoding': 'UTF-8',
         'id': 'False',
+        'ban_filetype':[],
+        'ban_list':[]
     }
     ,
     {
@@ -35,7 +40,8 @@ file_info=[
         'file_name': 'modules_A-L_chat.csv',
         'filetree_name': 'modules_chat_A-L_tree.csv',
         'encoding': 'UTF-8',
-        'id': 'True'
+        'id': 'True',
+        'ban_list':[]
     }
     ,
     {
@@ -60,7 +66,8 @@ file_info=[
         'file_name': 'modules_M-Z_chat.csv',
         'filetree_name': 'modules_chat_M-Z_tree.csv',
         'encoding': 'UTF-8',
-        'id': 'True'
+        'id': 'True',
+        'ban_list':[]
     }
     ,
     {
@@ -85,7 +92,8 @@ file_info=[
         'file_name': 'game_chat.csv',
         'filetree_name': 'game_chat_tree.csv',
         'encoding': 'UTF-8',
-        'id': 'True'
+        'id': 'True',
+        'ban_list':[]
     }
     ,
     {
@@ -118,7 +126,8 @@ file_info=[
         'id':'False',
         'ban_list':[
         'ChemFilter.tsx'
-        ]
+        ],
+        'ban_filetype':[]
     }
     ,
     {
@@ -127,7 +136,9 @@ file_info=[
         'file_name':'text.csv',
         'filetree_name':'file_tree.csv',
         'encoding':'UTF-8',
-        'id':'True'
+        'id':'True',
+        'ban_filetype':[],
+        'ban_list':[]
     }
     ,
     {
@@ -136,7 +147,9 @@ file_info=[
         'file_name': 'structures_text.csv',
         'filetree_name': 'structures_file_tree.csv',
         'encoding':'UTF-8',
-        'id':'True'
+        'ban_filetype':[],
+        'id':'True',
+        'ban_list':[]
     }
     ,
     {
@@ -144,8 +157,10 @@ file_info=[
         're_list': ['(?<=name = ".improper ).*(?=")', '(?<=name = ".proper ).*(?=")', '(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name': 'effects_text.csv',
         'filetree_name': 'effects_file_tree.csv',
+        'ban_filetype':[],
         'encoding':'UTF-8',
-        'id':'True'
+        'id':'True',
+        'ban_list':[]
     }
 
 
@@ -169,8 +184,10 @@ file_info=[
         're_list':['(?<=name = ".improper ).*(?=")','(?<=name = ".proper ).*(?=")','(?<=name = ").*(?=")','(?<=desc = ").*(?=")'],
         'file_name':'machinery_text.csv',
         'filetree_name':'machinery_file_tree.csv',
+        'ban_filetype':[],
         'encoding':'UTF-8',
-        'id':'True'
+        'id':'True',
+        'ban_list':[]
     }
     ,
     {
@@ -179,7 +196,9 @@ file_info=[
         'file_name':'turfs_text.csv',
         'filetree_name':'turfs_file_tree.csv',
         'encoding':'UTF-8',
-        'id':'True'
+        'ban_filetype':[],
+        'id':'True',
+        'ban_list':[]
     }
     ,
     #不要尝试提取下面这两个，这两个都是用直接删文件的方法提取的
@@ -190,7 +209,8 @@ file_info=[
         'filetree_name': 'string_json_file_tree.csv',
         'encoding': 'UTF-8',
         'id': 'False',
-        'ban_filetype': ['txt', 'toml']
+        'ban_filetype': ['txt', 'toml'],
+        'ban_list':[]
     }
     ,
     {
@@ -200,7 +220,8 @@ file_info=[
         'filetree_name': 'string_json_location_tree.csv',
         'encoding': 'UTF-8',
         'id': 'False',
-        'ban_filetype': ['txt', 'toml']
+        'ban_filetype': ['txt', 'toml'],
+        'ban_list':[]
     }
     ,
     {
@@ -209,153 +230,165 @@ file_info=[
         'file_name':'datums.csv',
         'filetree_name':'datums_tree.csv',
         'encoding':'UTF-8',
-        'id':'True'
+        'id':'True',
+        'ban_filetype':[],
+        'ban_list':[]
     }
 ]
+class folder_reader:
+    #返回[匹配内容，正则表达式，匹配物品]
+    def __init__(self,folder_path,filetree_name, file_name,re_list,id_tf,encoding='UTF-8',ban_filetype=None,count=0):
+        self.folder_path=folder_path
+        self.filetree_name=filetree_name
+        self.file_name=file_name
+        self.re_list=re_list
+        self.id_tf=id_tf
+        self.encoding=encoding
+        self.ban_filetype=ban_filetype
+        self.count=count
 
-#返回[匹配内容，正则表达式，匹配物品]
-def search_file(file_path,re_list,id_tf,encoding):
-    global count
-    try:
-        f=open(file_path,'r',encoding=encoding)
-    except UnicodeDecodeError:
-        f=open(file_path, 'rb', encoding=encoding)
-    result=[]
-    tmp_string=''
-    #用来检查一个id是否已经存在,仅在id不存在时生效
-    id_check_list=[]
-    try:
-        for string in f.readlines():
-            if id_tf=='False':
-                id=re.match('.*',tmp_string).group()
-            if list(string)[0]=='/' and id_tf=='True':
-                id=re.match('.*',string).group()
-            for r_e in re_list:
-                matchre=re.compile(r_e)
-                match=matchre.search(string)
-                if match!=None and match not in result:
-                    try:
-                        result.append([match.group(1),r_e,id])
-                    except IndexError:
-                        result.append([match.group(),r_e,id])
-                    count+=1
-                    break
-            #传递到下一次迭代
-            if string not in id_check_list:
-                tmp_string=string
-                id_check_list.append(string)
-        f.close()
+    def read_folder(self):
+        file_tree = self.search_folder()
+        with open(self.filetree_name, 'w', newline='', encoding='UTF-8') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['文件路径', '正则表达式'])
+            for file in file_tree.keys():
+                for line in file_tree[file]:
+                    writer.writerow([file, line[1], line[2]])
+        with open(self.file_name, 'w', newline='', encoding='UTF-8') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['索引', '文本内容', '翻译内容'])
+            index = iter(range(100000000))
+            for file in file_tree.keys():
+                for line in file_tree[file]:
+                    writer.writerow([next(index), line[0], ''])
+
+    def search_folder(self):
+        result = {}
+        for root, dirs, files in os.walk(self.folder_path):
+            for file_name in files:
+                if re.search(".([a-z|A-Z]*?)$", file_name).group(1) not in self.ban_filetype:
+                    result.update({root + '\\' + file_name: self.search_file(root + '\\' + file_name)})
         return result
-    except UnicodeDecodeError:
-        print('读取'+file_path+'时出现编码错误')
 
-def search_folder(folder_path,re_list,id_tf,encoding,ban_filetype):
-    result={}
-    for root,dirs,files in os.walk(folder_path):
-        for file_name in files:
-            if re.search(".([a-z|A-Z]*?)$",file_name).group(1) not in ban_filetype:
-                result.update({root+'\\'+file_name:search_file(root+'\\'+file_name,re_list,id_tf,encoding)})
-    return result
+    def search_file(self,file_path):
+        try:
+            f = open(file_path, 'r', encoding=self.encoding)
+        except UnicodeDecodeError:
+            f = open(file_path, 'rb', encoding=self.encoding)
+        result = []
+        tmp_string = ''
+        # 用来检查一个id是否已经存在,仅在id不存在时生效
+        id_check_list = []
+        try:
+            for string in f.readlines():
+                if self.id_tf == 'False':
+                    id = re.match('.*', tmp_string).group()
+                if list(string)[0] == '/' and self.id_tf == 'True':
+                    id = re.match('.*', string).group()
+                for r_e in self.re_list:
+                    matchre = re.compile(r_e)
+                    match = matchre.search(string)
+                    if match != None and match not in result:
+                        try:
+                            result.append([match.group(1), r_e, id])
+                        except IndexError:
+                            result.append([match.group(), r_e, id])
+                        self.count += 1
+                        break
+                # 传递到下一次迭代
+                if string not in id_check_list:
+                    tmp_string = string
+                    id_check_list.append(string)
+            f.close()
+            return result
+        except UnicodeDecodeError:
+            print('读取' + file_path + '时出现编码错误')
 
-#f_info[匹配内容，正则表达式，匹配物品]
-def write_file(file_path,file_tree,id_tf,encoding):
-    global count
-    try:
-        f = open(file_path, 'r', encoding=encoding)
-    except FileNotFoundError:
-        print(file_path+'处文件不存在（可能是在更新中被删除)')
-        return
-    #change_f是需要改变并写入文件的文本
-    change_f=f.readlines()
-    f_info=file_tree[file_path]
-    #增加一次迭代，防止迭代溢出
-    ban_line_list=[]
-    new_f=change_f.copy()
-    for i in range(len(f_info)):
-        #对于一个物品id，写入
-        switch=False
-        for line,text in enumerate(change_f):
-            old_file_line = list(text)
-            if f_info[i][2]=='':
-                switch=True
-            if re.match('.*', text).group()==f_info[i][2]:
-                switch=True
+class tree_writer:
+    #f_info[匹配内容，正则表达式，匹配物品]
+    def __init__(self,file_name,filetree_name,id_tf,encoding='UTF-8',ban_list=None,count=0):
+        self.file_name=file_name
+        self.filetree_name=filetree_name
+        self.id_tf=id_tf
+        self.encoding=encoding
+        self.ban_list=ban_list
+        self.count=count
+
+    def write_tree(self):
+        with open(self.filetree_name, 'r', newline='', encoding='UTF-8') as csvfile:
+            tree_reader = csv.reader(csvfile)
+            with open(self.file_name, 'r', newline='', encoding='UTF-8') as text:
+                text_reader = csv.reader(text)
+                new_file_tree = {}
+                # i的结构((文件路径，正则表达式，物品id)，(索引，原文，翻译）)
+                for i in zip(tree_reader, text_reader):
+                    switch=True
+                    for ban_str in self.ban_list:
+                        if re.search(ban_str,i[0][0])!=None:
+                            switch = False
+                    if switch:
+                        if i[0][0] == '文件路径':
+                            continue
+                        if len(i[1]) == 2:
+                            new_text = None
+                        elif i[1][2] == '':
+                            new_text = None
+                        else:
+                            new_text = i[1][2]
+                        if i[0][0] in new_file_tree:
+                            new_file_tree[i[0][0]].append([new_text, i[0][1], i[0][2]])
+                        else:
+                            new_file_tree[i[0][0]] = [[new_text, i[0][1], i[0][2]]]
+        self.file_tree=new_file_tree
+        for file_path in self.file_tree.keys():
+            self.write_file(file_path)
+
+
+    def write_file(self,file_path):
+        try:
+            f = open(file_path, 'r', encoding=self.encoding)
+        except FileNotFoundError:
+            print(file_path+'处文件不存在（可能是在更新中被删除)')
+            return
+        #change_f是需要改变并写入文件的文本
+        change_f=f.readlines()
+        f_info=self.file_tree[file_path]
+        #增加一次迭代，防止迭代溢出
+        ban_line_list=[]
+        new_f=change_f.copy()
+        for i in range(len(f_info)):
+
+            if f_info[i][0] is None:
                 continue
-            elif change_f[line][0]=='/' and id_tf=='True':
-                switch=False
-            if switch and line not in ban_line_list:
-                match = re.search(f_info[i][1], text)
-                if match != None:
-                    try:
-                        old_file_line = old_file_line[:match.span(1)[0]] + list(f_info[i][0]) + old_file_line[match.span(1)[1]:]
-                    except IndexError:
-                        old_file_line = old_file_line[:match.span()[0]] + list(f_info[i][0]) + old_file_line[match.span()[1]:]
-                    ban_line_list.append(line)
-                    count += 1
-                    # 不按id写入，按上一文本写入，写入完后就终止
-                    new_f[line] = ''.join(old_file_line)
-                    break
-
-
-    f.close()
-    fw = open(file_path, 'w', encoding='UTF-8')
-    for line in new_f:
-        fw.write(line)
-    fw.close()
-
-def read_folder(folder_path,filetree_name,file_name,re_list,id_tf,encoding='UTF-8',ban_filetype=None):
-    if ban_filetype == None:
-        ban_filetype=[]
-    file_tree = search_folder(folder_path,re_list,id_tf,encoding,ban_filetype)
-    with open(filetree_name, 'w', newline='', encoding='UTF-8') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['文件路径', '正则表达式'])
-        for file in file_tree.keys():
-            for line in file_tree[file]:
-                writer.writerow([file, line[1], line[2]])
-    with open(file_name, 'w', newline='', encoding='UTF-8') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['索引', '文本内容', '翻译内容'])
-        index = iter(range(100000000))
-        for file in file_tree.keys():
-            for line in file_tree[file]:
-                writer.writerow([next(index), line[0], ''])
-
-def write_tree(file_name,filetree_name,id_tf,encoding='UTF-8',ban_list=None):
-    with open(filetree_name, 'r', newline='', encoding='UTF-8') as csvfile:
-        tree_reader = csv.reader(csvfile)
-        with open(file_name, 'r', newline='', encoding='UTF-8') as text:
-            text_reader = csv.reader(text)
-            new_file_tree = {}
-            if ban_list == None:
-                ban_list_real = []
-            else:
-                ban_list_real=ban_list
-            # i的结构((文件路径，正则表达式，物品id)，(索引，文本内容）)
-            for i in zip(tree_reader, text_reader):
-                switch=True
-                for ban_str in ban_list_real:
-                    if re.search(ban_str,i[0][0])!=None:
-                        switch = False
-                if switch:
-                    if i[0][0] == '文件路径':
-                        continue
-                    if len(i[1]) == 2:
-                        new_text = i[1][1]
-                    elif i[1][2] == '':
-                        new_text = i[1][1]
-                    else:
-                        new_text = i[1][2]
-                    if i[0][0] in new_file_tree:
-                        new_file_tree[i[0][0]].append([new_text, i[0][1], i[0][2]])
-                    else:
-                        new_file_tree[i[0][0]] = [[new_text, i[0][1], i[0][2]]]
-
-
-    for file_path in new_file_tree.keys():
-        write_file(file_path, new_file_tree,id_tf,encoding)
-
-
+            # 对于一个物品id，写入
+            switch=False
+            for line,text in enumerate(change_f):
+                old_file_line = list(text)
+                if f_info[i][2]=='':
+                    switch=True
+                if re.match('.*', text).group()==f_info[i][2]:
+                    switch=True
+                    continue
+                elif change_f[line][0]=='/' and self.id_tf=='True':
+                    switch=False
+                if switch and line not in ban_line_list:
+                    match = re.search(f_info[i][1], text)
+                    if match != None:
+                        try:
+                            old_file_line = old_file_line[:match.span(1)[0]] + list(f_info[i][0]) + old_file_line[match.span(1)[1]:]
+                        except IndexError:
+                            old_file_line = old_file_line[:match.span()[0]] + list(f_info[i][0]) + old_file_line[match.span()[1]:]
+                        ban_line_list.append(line)
+                        self.count += 1
+                        # 不按id写入，按上一文本写入，写入完后就终止
+                        new_f[line] = ''.join(old_file_line)
+                        break
+        f.close()
+        fw = open(file_path, 'w', encoding='UTF-8')
+        for line in new_f:
+            fw.write(line)
+        fw.close()
 
 #储存结构{绝对路径：【【文本内容，正则表达式】，【。。。】，，。。。。】，绝对路径：【。。。】}
 if __name__=='__main__':
@@ -365,18 +398,11 @@ if __name__=='__main__':
         print('操作中')
         if enter=='r':
             for info in file_info:
-                count = 0
-                if info.get('ban_filetype')==None:
-                    read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'])
-                else:
-                    read_folder(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'],info['ban_filetype'])
-                print(info['file_name'] + '读取出' + str(count) + '个词条')
+                reader=folder_reader(info['folder_path'],info['filetree_name'],info['file_name'],info['re_list'],info['id'],info['encoding'],info['ban_filetype'])
+                reader.read_folder()
+                print(info['file_name'] + '读取出' + str(reader.count) + '个词条')
         elif enter=='w':
             for info in file_info:
-                count = 0
-                count_id = 0
-                if info.get('ban_list') == None:
-                    write_tree(info['file_name'],info['filetree_name'],info['id'],info['encoding'])
-                else:
-                    write_tree(info['file_name'], info['filetree_name'], info['id'], info['encoding'],info['ban_list'])
-                print(info['file_name']+'已写入'+str(count)+'个词条 ')
+                writer=tree_writer(info['file_name'],info['filetree_name'],info['id'],info['encoding'],info['ban_list'])
+                writer.write_tree()
+                print(info['file_name']+'已写入'+str(writer.count)+'个词条 ')
