@@ -1,6 +1,7 @@
 import os
 import re as re
 import csv
+import regex
 
 file_info=[
     {
@@ -283,11 +284,14 @@ def write_file(file_path,file_tree,id_tf,encoding):
             elif change_f[line][0]=='/' and id_tf=='True':
                 switch=False
             if switch and line not in ban_line_list:
-                match = re.search(f_info[i][1],text)
+                match = re.search(f_info[i][1], text)
                 if match != None:
-                    old_file_line = old_file_line[:match.span()[0]] + list(f_info[i][0]) + old_file_line[match.span()[1]:]
+                    try:
+                        old_file_line = old_file_line[:match.span(1)[0]] + list(f_info[i][0]) + old_file_line[match.span(1)[1]:]
+                    except IndexError:
+                        old_file_line = old_file_line[:match.span()[0]] + list(f_info[i][0]) + old_file_line[match.span()[1]:]
                     ban_line_list.append(line)
-                    count+=1
+                    count += 1
                     # 不按id写入，按上一文本写入，写入完后就终止
                     new_f[line] = ''.join(old_file_line)
                     break
